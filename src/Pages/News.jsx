@@ -1,7 +1,7 @@
 // News.js
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import News_page from "../templates/news_page";
+import News_page from "../templates/News_page";
 import Ins1 from "../assets/images/Insp1.jpg";
 const News = () => {
   const [selectedNews, setSelectedNews] = useState(null);

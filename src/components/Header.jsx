@@ -5,20 +5,21 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   const newses = [
-    { title: "BisniZ" },
-    { title: "SportZ" },
-    { title: "ArtZ" },
-    { title: "PoliticZ" },
-    { title: "InspiraZ" },
+    { title: "bisnis" },
+    { title: "sports" },
+    { title: "arts" },
+    { title: "politics" },
+    { title: "inpirations" },
   ];
 
   const [openModal, setOpenModal] = useState();
   const props = { openModal, setOpenModal };
   const [isOpen, setOpen] = useState(false);
   const [navbarStatus, setNavbarStatus] = useState(false);
+  const [listNews, setListNews] = useState(false);
   return (
     <>
-      <section className="2xl:w-[1400px] xl:w-[1280px] lg:w-[900px] lg:flex flex-col justify-between items-center py-4 px-8 bg-gradient-to-r bg-violet-400 bg-violet-500">
+      <section className="2xl:w-[1400px] xl:w-[1280px] lg:w-[900px] hidden lg:flex flex-col justify-between items-center py-4 px-8">
         <div
           className={`w-full lg:flex flex-row justify-between items-center border-b  ${
             window.scrollY >= 50 ? "xl:hidden" : ""
@@ -34,16 +35,47 @@ const Header = () => {
             </span>
           </Link>
 
-          <div className="flex gap-2">
+          <div className="w-[500px] flex justify-between items-center gap-3">
+            <>
+              <fieldset className="space-y-1">
+                <label for="Search" className="hidden">
+                  Search
+                </label>
+                <div className="relative">
+                  <span className="absolute inset-y-0 left-0 flex items-center pl-2">
+                    <button
+                      type="button"
+                      title="search"
+                      className="p-1 focus:outline-none focus:ring"
+                    >
+                      <svg
+                        fill="black"
+                        viewBox="0 0 512 512"
+                        className="w-4 h-4 dark:text-gray-100"
+                      >
+                        <path d="M479.6,399.716l-81.084-81.084-62.368-25.767A175.014,175.014,0,0,0,368,192c0-97.047-78.953-176-176-176S16,94.953,16,192,94.953,368,192,368a175.034,175.034,0,0,0,101.619-32.377l25.7,62.2L400.4,478.911a56,56,0,1,0,79.2-79.195ZM48,192c0-79.4,64.6-144,144-144s144,64.6,144,144S271.4,336,192,336,48,271.4,48,192ZM456.971,456.284a24.028,24.028,0,0,1-33.942,0l-76.572-76.572-23.894-57.835L380.4,345.771l76.573,76.572A24.028,24.028,0,0,1,456.971,456.284Z"></path>
+                      </svg>
+                    </button>
+                  </span>
+                  <input
+                    type="search"
+                    name="Search"
+                    placeholder="Search..."
+                    className="w-full py-2 pl-10 text-sm rounded-md sm:w-auto border-b-2"
+                  />
+                </div>
+              </fieldset>
+            </>
+
             <button
               onClick={() => props.setOpenModal("default")}
-              className="bg-gradient-to-r from-gray-600 to-gray-800 hover:from-gray-600 hover:to-gray-600 px-4 rounded-full font-medium text-white border-0 focus:ring-0 py-2"
+              className="w-56 bg-gradient-to-r from-gray-600 to-gray-800 hover:from-gray-600 hover:to-gray-600 px-4 rounded-full font-medium text-white border-0 focus:ring-0 py-2"
             >
               Get In Touch
             </button>
             <Link
               to="/login"
-              className="bg-transparent hover:bg-gradient-to-r hover:from-gray-600 hover:to-gray-800 px-6 rounded-full font-medium text-gray-800 hover:text-white border-[1px] border-gray-600 hover:border-white focus:ring-0 py-2"
+              className="w-32 bg-transparent hover:bg-gradient-to-r hover:from-gray-600 hover:to-gray-800 px-6 rounded-full font-medium text-gray-800 hover:text-white border-[1px] border-gray-600 hover:border-white focus:ring-0 py-2"
             >
               Masuk
             </Link>
@@ -60,12 +92,12 @@ const Header = () => {
                 <Link
                   to={`/news/${news.title}`}
                   className={`text-[15px] font-medium text-slate-900 hover:text-gray-600 transition-all ${
-                    location.pathname === "/"
+                    location.pathname === `/news/${news.title}`
                       ? "px-2.5 py-0.5 border-b-2 border-gray-600"
                       : ""
                   }`}
                 >
-                  {news.title}
+                  {news.title}Z
                 </Link>
               </li>
             ))}
@@ -77,15 +109,15 @@ const Header = () => {
           navbarStatus ? "shadow-none" : "shadow-lg"
         }`}
       >
-        <a
+        <Link
           href="#home"
-          className="md:text-3xl text-2xl es:text-[20px] text-blue-600 font-bold flex flex-col"
+          className="text-3xl font-bold flex flex-col bg-gradient-to-r from-gray-700 to-gray-900 text-transparent bg-clip-text"
         >
-          Decode Course
-          <span className="md:text-[16px] text-sm text-slate-800 font-normal">
-            Upgrade cara belajar mu
+          GeneraZ
+          <span className="text-[16px] text-slate-800 font-normal">
+            Inspirasi untuk GeneraZ
           </span>
-        </a>
+        </Link>
         <Hamburger
           size={26}
           onToggle={(toggled) => {
@@ -97,7 +129,7 @@ const Header = () => {
           }}
           toggled={isOpen}
           toggle={setOpen}
-          color="#2563eb"
+          color="#000000"
         />
       </div>
       <section
@@ -108,29 +140,36 @@ const Header = () => {
         <nav className="w-full px-10">
           <ul className="flex flex-col items-center gap-y-4">
             <li className="">
-              <a
-                href="#courses"
+              <Link
+                to={`/`}
                 className="text-[17px] font-semibold text-slate-900 hover:text-gray-600"
               >
                 Home
-              </a>
+              </Link>
             </li>
-            <li className="">
-              <a
-                href="#mentor"
-                className="text-[17px] font-semibold text-slate-900 hover:text-gray-600 transition-all"
-              >
-                News
-              </a>
+            <li
+              className="text-[17px] font-semibold text-slate-900 hover:text-gray-600"
+              onClick={() => setListNews(!listNews)}
+            >
+              News
             </li>
-            <li className="w-full">
-              <Button
-                onClick={() => props.setOpenModal("default")}
-                className="w-full bg-gradient-to-r from-blue-400 to-blue-600 hover:from-blue-600 hover:to-blue-600 px-4 rounded-full font-semibold text-white border-0 focus:ring-0"
-              >
-                Get In Touch
-              </Button>
-            </li>
+            <ul
+              className={`transition-all duration-300 flex flex-col justify-between items-center ${
+                listNews ? "h-44" : "h-0 hidden"
+              }`}
+            >
+              {newses.map((news, index) => (
+                <li key={index}>
+                  <Link
+                    to={`/news/${news.title}`}
+                    className="text-[17px] font-semibold text-slate-900 hover:text-gray-600"
+                  >
+                    {news.title}Z
+                  </Link>
+                </li>
+              ))}
+            </ul>
+
             <li className="w-full">
               <Link to="/login">
                 <Button className="w-full bg-transparent hover:bg-gradient-to-r hover:from-blue-400 hover:to-blue-600 px-4 rounded-full font-medium text-blue-600 hover:text-white border-[1px] border-blue-600 hover:border-white focus:ring-0">

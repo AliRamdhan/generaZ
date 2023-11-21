@@ -5,9 +5,21 @@ import News from "./Pages/News";
 import Error from "./Pages/Error";
 import Welcome from "./Pages/Welcome";
 import News_Category from "./Pages/News_Category";
+import Login from "./Pages/login";
+import Register from "./Pages/register";
 import "./index.css";
 
 const Router = createBrowserRouter([
+  {
+    path: "/register",
+    element: <Register />,
+    errorElement: <Error />,
+  },
+  {
+    path: "/login",
+    element: <Login />,
+    errorElement: <Error />,
+  },
   {
     path: "/",
     element: <Welcome />,

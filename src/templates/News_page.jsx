@@ -34,7 +34,15 @@ const News_page = ({ title, release, images, deskripsi, category }) => {
         </div>
 
         <div className="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
-          <p className="pb-6">{deskripsi}</p>
+          {Array.isArray(deskripsi) ? (
+            <>
+              {deskripsi.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
+            </>
+          ) : (
+            <p className="pb-6">{deskripsi}</p>
+          )}
         </div>
       </main>
     </div>

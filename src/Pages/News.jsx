@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import News_page from "../templates/News_page";
 import Ins1 from "../assets/images/Insp1.jpg";
+import Simbol from "../assets/images/simbol.jpg";
 const News = () => {
   const [selectedNews, setSelectedNews] = useState(null);
 
@@ -14,7 +15,7 @@ const News = () => {
           "Demi Ganjar-Mahfud, Yenny Wahid Datangi Pekerja Migran di Malaysia",
         description:
           "Yenny Wahid menyosialisasikan pasangan Ganjar-Mahfud kepada para pekerja migran Indonesia di Malaysia.",
-        images: "image_url1.jpg",
+        images: Simbol,
         release: "January 22, 2021",
         category: "BisniZ",
       },
@@ -25,7 +26,7 @@ const News = () => {
         title: "Teknologi Blockchain Membuka Peluang Baru di Dunia Keuangan",
         description:
           "Dengan munculnya teknologi blockchain, sektor keuangan mengalami perubahan besar. Artikel ini membahas peluang baru yang muncul berkat blockchain.",
-        images: "blockchain_image.jpg",
+        images: Simbol,
         release: "2023-11-21",
         category: "Bisnis",
       },
@@ -35,7 +36,7 @@ const News = () => {
           "Perusahaan XYZ Meluncurkan Inovasi Terbaru dalam Bidang Kesehatan",
         description:
           "Perusahaan terkemuka, XYZ, mengumumkan peluncuran produk revolusioner yang akan mengubah cara kita melihat kesehatan. Artikel ini membahas fitur-fitur baru dan dampaknya.",
-        images: "health_innovation_image.jpg",
+        images: Simbol,
         release: "2023-11-20",
         category: "Bisnis",
       },
@@ -45,7 +46,7 @@ const News = () => {
           "Pasar Saham Mengalami Kenaikan Signifikan di Tengah Pemulihan Ekonomi",
         description:
           "Pasar saham melihat kenaikan yang kuat seiring pemulihan ekonomi global. Artikel ini menganalisis faktor-faktor di balik kenaikan tersebut dan prospek ke depan.",
-        images: "stock_market_image.jpg",
+        images: Simbol,
         release: "2023-11-19",
         category: "Bisnis",
       },
@@ -56,7 +57,7 @@ const News = () => {
             "Startup Teknologi Mendapatkan Pendanaan Besar untuk Pengembangan Produk Baru",
           description:
             "Startup inovatif di bidang teknologi berhasil mendapatkan pendanaan signifikan dalam putaran pendanaan terbarunya. Artikel ini membahas rencana pengembangan produk baru dan potensi dampaknya.",
-          images: "startup_funding_image.jpg",
+          images: Simbol,
           release: "2023-11-18",
           category: "Bisnis",
         },
@@ -67,7 +68,7 @@ const News = () => {
             "Ritel Online Terbesar Meluncurkan Program Diskon untuk Menarik Pelanggan",
           description:
             "Platform belanja online terkemuka mengumumkan program diskon besar-besaran sebagai bagian dari strategi untuk menarik lebih banyak pelanggan. Artikel ini memberikan informasi tentang program diskon dan dampaknya pada pasar.",
-          images: "online_retail_discount_image.jpg",
+          images: Simbol,
           release: "2023-11-17",
           category: "Bisnis",
         },
@@ -75,10 +76,10 @@ const News = () => {
     sports: {
       SEPAK_BOLAAA: {
         id: "SEPAK_BOLAAA",
-        title: "Teknologi Blockchain Membuka Peluang Baru di Dunia Keuangan",
+        title: "SEPAK_BOLAAA",
         description:
           "Dengan munculnya teknologi blockchain, sektor keuangan mengalami perubahan besar. Artikel ini membahas peluang baru yang muncul berkat blockchain.",
-        images: "blockchain_image.jpg",
+        images: Simbol,
         release: "2023-11-21",
         category: "Bisnis",
       },
@@ -89,7 +90,7 @@ const News = () => {
         title: "ARTSSSSS",
         description:
           "Dengan munculnya teknologi blockchain, sektor keuangan mengalami perubahan besar. Artikel ini membahas peluang baru yang muncul berkat blockchain.",
-        images: "blockchain_image.jpg",
+        images: Simbol,
         release: "2023-11-21",
         category: "Bisnis",
       },
@@ -100,7 +101,7 @@ const News = () => {
         title: "POLITICS",
         description:
           "Dengan munculnya teknologi blockchain, sektor keuangan mengalami perubahan besar. Artikel ini membahas peluang baru yang muncul berkat blockchain.",
-        images: "blockchain_image.jpg",
+        images: Ins1,
         release: "2023-11-21",
         category: "Bisnis",
       },

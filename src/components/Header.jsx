@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Button, Modal, Textarea, Label, TextInput } from "flowbite-react";
 import Hamburger from "hamburger-react";
 import { Link } from "react-router-dom";
-
+import Logo from "../assets/images/logo2.png";
 const Header = () => {
   const newses = [
     { title: "bisnis" },
@@ -19,20 +19,14 @@ const Header = () => {
   const [listNews, setListNews] = useState(false);
   return (
     <>
-      <section className="2xl:w-[1400px] xl:w-[1280px] lg:w-[900px] hidden lg:flex flex-col justify-between items-center py-4 px-8">
+      <section className="2xl:w-[1400px] xl:w-[1280px] lg:w-[900px] hidden lg:flex flex-col justify-between items-center py-4 px-8 bg-[#322557] text-white">
         <div
-          className={`w-full lg:flex flex-row justify-between items-center border-b  ${
+          className={`w-full lg:flex flex-row justify-between items-center border-b relative  ${
             window.scrollY >= 50 ? "xl:hidden" : ""
           }`}
         >
-          <Link
-            to={`/`}
-            className="text-3xl font-bold flex flex-col bg-gradient-to-r from-gray-700 to-gray-900 text-transparent bg-clip-text"
-          >
-            GeneraZ
-            <span className="text-[16px] text-slate-800 font-normal">
-              Inspirasi untuk GeneraZ
-            </span>
+          <Link to={`/`}>
+            <img src={Logo} alt="Logo generaz" className="h-16 w-40" />
           </Link>
 
           <div className="w-[500px] flex justify-between items-center gap-3">
@@ -69,13 +63,13 @@ const Header = () => {
 
             <button
               onClick={() => props.setOpenModal("default")}
-              className="w-56 bg-gradient-to-r from-gray-600 to-gray-800 hover:from-gray-600 hover:to-gray-600 px-4 rounded-full font-medium text-white border-0 focus:ring-0 py-2"
+              className="w-56 border border-gray-600 hover:border-white px-4 rounded-full font-medium text-white focus:ring-0 py-2"
             >
               Get In Touch
             </button>
             <Link
               to="/login"
-              className="w-32 bg-transparent hover:bg-gradient-to-r hover:from-gray-600 hover:to-gray-800 px-6 rounded-full font-medium text-gray-800 hover:text-white border-[1px] border-gray-600 hover:border-white focus:ring-0 py-2"
+              className="w-32 bg-transparent px-6 rounded-full font-medium text-gray-800 text-white border-[1px] border-gray-600 hover:border-white focus:ring-0 py-2"
             >
               Masuk
             </Link>
@@ -87,11 +81,18 @@ const Header = () => {
               window.scrollY >= 50 ? "xl:pt-0" : ""
             }`}
           >
+            <img
+              src={Logo}
+              alt="Logo generaz"
+              className={`h-16 w-36 transition-all ${
+                window.scrollY >= 50 ? "block" : "hidden"
+              }`}
+            />
             {newses.map((news, index) => (
               <li key={index}>
                 <Link
                   to={`/news/${news.title}`}
-                  className={`text-[15px] font-medium text-slate-900 hover:text-gray-600 transition-all ${
+                  className={`text-[15px] font-medium hover:text-gray-600 transition-all ${
                     location.pathname === `/news/${news.title}`
                       ? "px-2.5 py-0.5 border-b-2 border-gray-600"
                       : ""

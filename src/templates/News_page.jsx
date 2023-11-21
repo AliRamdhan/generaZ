@@ -37,7 +37,7 @@ const News_page = ({ title, release, images, deskripsi, category }) => {
           {Array.isArray(deskripsi) ? (
             <>
               {deskripsi.map((paragraph, index) => (
-                <p key={index}>{paragraph}</p>
+                <p key={index} className="my-5">{paragraph}</p>
               ))}
             </>
           ) : (

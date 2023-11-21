@@ -36,12 +36,12 @@ const ModalHighligt = () => {
       },
     },
     content: {
-      base: "relative h-full w-full p-4 md:h-auto",
+      base: "relative h-full w-full p-4 md:h-auto text-white",
       inner:
-        "relative rounded-lg bg-white shadow dark:bg-gray-700 flex flex-col max-h-[90vh]",
+        "relative rounded-lg bg-white shadow bg-[#322557] flex flex-col max-h-[90vh]",
     },
     body: {
-      base: "p-6 flex-1 overflow-auto",
+      base: "p-6 flex-1 overflow-auto text-white",
       popup: "pt-0",
     },
     header: {
@@ -75,16 +75,16 @@ const ModalHighligt = () => {
         <Modal.Body>
           <div className="space-y-6 w-full flex flex-col items-center">
             <img src={highlight.images} alt="" className="w-3/4 h-72" />
-            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+            <p className="text-base leading-relaxed">
               {highlight.descriptions}
             </p>
           </div>
         </Modal.Body>
         <Modal.Footer>
           <Link to={`/news/inpirations/${highlight.id}`}>
-            <Button>Continue Read</Button>
+            <Button className="hover:text-gray-600">Continue Read</Button>
           </Link>
-          <Button color="gray" onClick={() => setOpenModal(false)}>
+          <Button onClick={() => setOpenModal(false)} className="hover:text-red-700">
             Later
           </Button>
         </Modal.Footer>

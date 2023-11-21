@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import Ins1 from "../assets/images/Insp1.jpg";
 import ModalHighligt from "../components/ModalHighligt";
+import Simbol from "../assets/images/simbol.jpg";
 const Welcome = () => {
   const [scroll, scrollValue] = useState(0);
   const [promoStatus, setPromoStatus] = useState(true);
@@ -20,7 +21,7 @@ const Welcome = () => {
           "Demi Ganjar-Mahfud, Yenny Wahid Datangi Pekerja Migran di Malaysia",
         description:
           "Yenny Wahid menyosialisasikan pasangan Ganjar-Mahfud kepada para pekerja migran Indonesia di Malaysia.",
-        images: "image_url1.jpg",
+        images: Simbol,
         release: "January 22, 2021",
         category: "BisniZ",
       },
@@ -31,7 +32,7 @@ const Welcome = () => {
         title: "Teknologi Blockchain Membuka Peluang Baru di Dunia Keuangan",
         description:
           "Dengan munculnya teknologi blockchain, sektor keuangan mengalami perubahan besar. Artikel ini membahas peluang baru yang muncul berkat blockchain.",
-        images: "blockchain_image.jpg",
+        images: Simbol,
         release: "2023-11-21",
         category: "Bisnis",
       },
@@ -41,7 +42,7 @@ const Welcome = () => {
           "Perusahaan XYZ Meluncurkan Inovasi Terbaru dalam Bidang Kesehatan",
         description:
           "Perusahaan terkemuka, XYZ, mengumumkan peluncuran produk revolusioner yang akan mengubah cara kita melihat kesehatan. Artikel ini membahas fitur-fitur baru dan dampaknya.",
-        images: "health_innovation_image.jpg",
+        images: Simbol,
         release: "2023-11-20",
         category: "Bisnis",
       },
@@ -51,7 +52,7 @@ const Welcome = () => {
           "Pasar Saham Mengalami Kenaikan Signifikan di Tengah Pemulihan Ekonomi",
         description:
           "Pasar saham melihat kenaikan yang kuat seiring pemulihan ekonomi global. Artikel ini menganalisis faktor-faktor di balik kenaikan tersebut dan prospek ke depan.",
-        images: "stock_market_image.jpg",
+        images: Simbol,
         release: "2023-11-19",
         category: "Bisnis",
       },
@@ -62,7 +63,7 @@ const Welcome = () => {
             "Startup Teknologi Mendapatkan Pendanaan Besar untuk Pengembangan Produk Baru",
           description:
             "Startup inovatif di bidang teknologi berhasil mendapatkan pendanaan signifikan dalam putaran pendanaan terbarunya. Artikel ini membahas rencana pengembangan produk baru dan potensi dampaknya.",
-          images: "startup_funding_image.jpg",
+          images: Simbol,
           release: "2023-11-18",
           category: "Bisnis",
         },
@@ -73,7 +74,7 @@ const Welcome = () => {
             "Ritel Online Terbesar Meluncurkan Program Diskon untuk Menarik Pelanggan",
           description:
             "Platform belanja online terkemuka mengumumkan program diskon besar-besaran sebagai bagian dari strategi untuk menarik lebih banyak pelanggan. Artikel ini memberikan informasi tentang program diskon dan dampaknya pada pasar.",
-          images: "online_retail_discount_image.jpg",
+          images: Simbol,
           release: "2023-11-17",
           category: "Bisnis",
         },
@@ -81,10 +82,10 @@ const Welcome = () => {
     sports: {
       SEPAK_BOLAAA: {
         id: "SEPAK_BOLAAA",
-        title: "Teknologi Blockchain Membuka Peluang Baru di Dunia Keuangan",
+        title: "SEPAK_BOLAAA",
         description:
           "Dengan munculnya teknologi blockchain, sektor keuangan mengalami perubahan besar. Artikel ini membahas peluang baru yang muncul berkat blockchain.",
-        images: "blockchain_image.jpg",
+        images: Simbol,
         release: "2023-11-21",
         category: "Bisnis",
       },
@@ -95,7 +96,7 @@ const Welcome = () => {
         title: "ARTSSSSS",
         description:
           "Dengan munculnya teknologi blockchain, sektor keuangan mengalami perubahan besar. Artikel ini membahas peluang baru yang muncul berkat blockchain.",
-        images: "blockchain_image.jpg",
+        images: Simbol,
         release: "2023-11-21",
         category: "Bisnis",
       },
@@ -152,12 +153,13 @@ const Welcome = () => {
         }`}
       >
         {promoStatus == true ? (
-          <div className="w-full bg-gradient-to-r from-neutral-600 to-neutral-800  py-2 es:px-1 flex flex-row justify-around items-center">
+          <div className="w-full bg-gradient-to-r from-violet-600 to-violet-800  py-2 es:px-1 flex flex-row justify-around items-center">
             <div></div>
             <p className="text-white font-normal sm:text-[16px] es:text-[12px]">
-              Happy Valentine&apos;s! Dapatkan <b>Diskon 20%</b> dengan code
+              Happy November Month&apos;s! Dapatkan <b>Diskon 20%</b> dengan
+              code
               <b className="sm:text-[13px] es:text-[10px] text-blue-600 bg-white p-1 rounded-sm ms-1">
-                ILOVEMYGF
+                ILOVEMYGENZ
               </b>
             </p>
             <BsX
@@ -180,7 +182,7 @@ const Welcome = () => {
                 to={`/news/headline/${news.headline[element].id}`}
               >
                 <img
-                  src="https://source.unsplash.com/random/480x360"
+                  src={news.headline[element].images}
                   alt=""
                   className="object-cover w-full h-64 rounded sm:h-96 lg:col-span-7 dark:bg-gray-500"
                 />
@@ -207,7 +209,7 @@ const Welcome = () => {
                     <img
                       role="presentation"
                       className="object-cover w-full rounded h-44 dark:bg-gray-500"
-                      src="https://source.unsplash.com/random/480x360?1"
+                      src={news.bisnis[element].images}
                     />
                     <div className="p-6 space-y-2">
                       <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
@@ -234,7 +236,7 @@ const Welcome = () => {
                     <img
                       role="presentation"
                       className="object-cover w-full rounded h-44 dark:bg-gray-500"
-                      src="https://source.unsplash.com/random/480x360?1"
+                      src={news.sports[element].images}
                     />
                     <div className="p-6 space-y-2">
                       <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
@@ -261,7 +263,7 @@ const Welcome = () => {
                     <img
                       role="presentation"
                       className="object-cover w-full rounded h-44 dark:bg-gray-500"
-                      src="https://source.unsplash.com/random/480x360?1"
+                      src={news.arts[element].images}
                     />
                     <div className="p-6 space-y-2">
                       <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">
@@ -288,7 +290,7 @@ const Welcome = () => {
                     <img
                       role="presentation"
                       className="object-cover w-full rounded h-44 dark:bg-gray-500"
-                      src="https://source.unsplash.com/random/480x360?1"
+                      src={news.politics[element].images}
                     />
                     <div className="p-6 space-y-2">
                       <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">

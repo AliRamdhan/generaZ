@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Logo from "../assets/images/logo.png";
 const Footer = () => {
   return (
-    <section className="px-8 divide-y">
+    <section className="px-8 divide-y bg-[#322557] text-white">
       <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
         <div className="lg:w-1/3">
           <Link
@@ -52,7 +52,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="space-y-3">
-            <h3 className="tracki uppercase dark:text-gray-50">Company</h3>
+            <h3 className="tracki uppercase">Company</h3>
             <ul className="space-y-1">
               <li>
                 <a rel="noopener noreferrer" href="#">
@@ -137,7 +137,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="py-6 text-sm text-center text-gray-800">
+      <div className="py-6 text-sm text-center">
         © 1968 Company Co. All rights reserved.
       </div>
     </section>

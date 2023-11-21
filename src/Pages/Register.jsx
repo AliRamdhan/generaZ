@@ -32,18 +32,19 @@ const Register = () => {
     },
     button: {
       color: {
-        blue: "text-white bg-gradient-to-r from-blue-500 to-blue-700",
+        blue: "text-white bg-gradient-to-r from-gray-900 to-gray-950",
       },
     },
   };
 
   return (
-    <div id="login" className="w-full h-screen">
-      <div className="w-full h-screen bg-gradient-to-br from-violet-900 to-violet-950 flex justify-center items-center px-44">
+    <div id="register" className="w-full h-screen grid grid-cols-12">
+      <div className="col-span-5 h-screen bg-[Login] bg-cover bg-center bg-no-repeat hidden"></div>
+      <div className="col-span-12 h-screen bg-gradient-to-br from-violet-900 to-violet-950 flex justify-center items-center">
         <div className="w-full md:w-96 lg:w-1/2 flex flex-col gap-y-10 px-3">
           <div className="flex flex-col gap-y-2">
             <p className="text-3xl md:text-4xl text-white font-bold">
-              Pijar Pelajar
+              GeneraZ
             </p>
             <p className="text-md text-white font-normal">
               Selamat datang, isi form untuk mendaftar

@@ -106,16 +106,16 @@ const Header = () => {
         </nav>
       </section>
       <div
-        className={`w-full lg:hidden flex flex-row justify-between items-center py-2 bg-white z-10 px-8 es:px-3 ${
+        className={`w-full lg:hidden flex flex-row justify-between items-center py-2 bg-[#322557] text-white z-10 px-8  es:px-3 ${
           navbarStatus ? "shadow-none" : "shadow-lg"
         }`}
       >
         <Link
           href="#home"
-          className="text-3xl font-bold flex flex-col bg-gradient-to-r from-gray-700 to-gray-900 text-transparent bg-clip-text"
+          className="text-3xl font-bold flex flex-col bg-gradient-to-r from-gray-700 to-gray-900 text-white bg-clip-text"
         >
           GeneraZ
-          <span className="text-[16px] text-slate-800 font-normal">
+          <span className="text-[16px] font-normal">
             Inspirasi untuk GeneraZ
           </span>
         </Link>
@@ -130,7 +130,7 @@ const Header = () => {
           }}
           toggled={isOpen}
           toggle={setOpen}
-          color="#000000"
+          color="#ffffff"
         />
       </div>
       <section

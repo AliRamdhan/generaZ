@@ -5,8 +5,8 @@ import News from "./Pages/News";
 import Error from "./Pages/Error";
 import Welcome from "./Pages/Welcome";
 import News_Category from "./Pages/News_Category";
-import Login from "./Pages/login";
-import Register from "./Pages/register";
+import Login from "./Pages/Login";
+import Register from "./Pages/Register";
 import "./index.css";
 
 const Router = createBrowserRouter([

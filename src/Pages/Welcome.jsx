@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
-import { Button, Modal } from "flowbite-react";
 import { BsX } from "react-icons/bs";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";

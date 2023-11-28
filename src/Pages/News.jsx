@@ -233,7 +233,7 @@ const News = () => {
         },
         release: "Senin, 27 November 2023",
         category: "Environment",
-        author: "Genera-Z",
+        author: "Farah Salsabila",
       },
     },
   };

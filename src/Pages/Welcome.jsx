@@ -454,7 +454,7 @@ const Welcome = () => {
                     <Link
                       key={index}
                       className="max-w-sm mx-auto group hover:no-underline border-2 focus:no-underline"
-                      to={`/news/inpirations/${news.inpirations[element].id}`}
+                      to={`/news/inspirations/${news.inpirations[element].id}`}
                     >
                       <img
                         role="presentation"

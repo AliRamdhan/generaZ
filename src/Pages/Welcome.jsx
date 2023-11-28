@@ -203,7 +203,7 @@ const Welcome = () => {
           images: Ins1,
           release: "Selasa, 21 November 2023",
           category: "Inpirasi",
-          author: "Diah Wahyuningrum",
+          author: " Alvina Rahma Khalishafitri",
         },
     },
     environments: {

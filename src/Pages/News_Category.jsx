@@ -18,7 +18,7 @@ const News_All = () => {
   });
   const { cat } = useParams();
   useEffect(() => {
-    // Check if the category exists in the news object
+    console.log(cat)
     if (news[cat]) {
       // Check if the newsId exists in the selected category
       const selectedNewsData = news[cat];
@@ -174,7 +174,7 @@ const News_All = () => {
         author: "Genera-Z",
       },
     },
-    inpirations: {
+    inspirations: {
       BEM_FT_UNS_Gelar_Malam_Apresiasi_Kepada_Mahasiswa_Fakultas_Teknis_yang_Berprestasi:
         {
           id: "BEM_FT_UNS_Gelar_Malam_Apresiasi_Kepada_Mahasiswa_Fakultas_Teknis_yang_Berprestasi",
@@ -194,7 +194,7 @@ const News_All = () => {
           ],
           images: Ins6,
           release: "Senin, 27 November 2023",
-          category: "Inpirasi",
+          category: "inspirations",
           author: "Diah Wahyuningrum",
         },
       Menjadi_Pemenang_Kelompok_Best_Presentation_Kelompok_ini_Ternyata_Ambil_Ide_dari_Program_Kerja_Asli_BEM_FISIP_UNS:
@@ -216,7 +216,7 @@ const News_All = () => {
           ],
           images: Ins1,
           release: "Selasa, 21 November 2023",
-          category: "Inpirasi",
+          category: "inspirations",
           author: "Diah Wahyuningrum",
         },
     },

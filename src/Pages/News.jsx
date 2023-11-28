@@ -8,6 +8,7 @@ import Ins3 from "../assets/images/insp3.jpg";
 import Ins4 from "../assets/images/insp4.jpg";
 import Ins5 from "../assets/images/insp5.jpg";
 import Ins6 from "../assets/images/insp6.jpg";
+import Ins7 from "../assets/images/insp7.jpg";
 import Simbol from "../assets/images/simbol.jpg";
 const News = () => {
   const [selectedNews, setSelectedNews] = useState(null);
@@ -164,7 +165,7 @@ const News = () => {
         author: "Genera-Z",
       },
     },
-    inpirations: {
+    inspirations: {
       BEM_FT_UNS_Gelar_Malam_Apresiasi_Kepada_Mahasiswa_Fakultas_Teknis_yang_Berprestasi:
         {
           id: "BEM_FT_UNS_Gelar_Malam_Apresiasi_Kepada_Mahasiswa_Fakultas_Teknis_yang_Berprestasi",
@@ -213,6 +214,27 @@ const News = () => {
           category: "Inpirasi",
           author: "Diah Wahyuningrum",
         },
+    },
+    environments: {
+      Menelusuri_Salah_Satu_Kampung_ProKlim_di_Magelang: {
+        id: "Menelusuri_Salah_Satu_Kampung_ProKlim_di_Magelang",
+        title: "Menelusuri Salah Satu Kampung ProKlim di Magelang",
+        description: [
+          "Dalam beberapa tahun belakangan ini, kawasan kampung Jambon Gesikan, Cacaban, Magelang Tengah, Kota Magelang menarik perhatian masyarakat di Jawa Tengah hingga di luar pulau jawa sebagai salah satu tempat belajar mengelola sampah dan tanaman organik. Hal tersebut memiliki dampak baik bagi kemajuan kampung tersebut. ",
+          "Awal mula kampung ini menjadi kampung yang dapat mengolah sampah menjadi pupuk dan aneka produk daur ulang karena salah satu ide dari warga kampung tersebut “Waktu itu saya ingat banget, saya sama mbak sur iseng aja. Ada tetangga yang sedang bikin wc tapi tanahnya dibuang di rumah kosong, lalu saya dan mbak sur punya ide untuk ditanami tanaman kacang panjang. Karena menurut saya dan mbak sur hal tersebut cukup berdampak baik, sehingga kita bilang ke ketua RW untuk bikin kebun saja. Pada saat itu ketua RW menolak tetapi pihak keluarga dari pemilik rumah kosong setuju akhirnya kami tidak peduli dan terus melanjutkan kegiatan tersebut hingga sekarang,” jelas Titi",
+          "Setiap sebulan sekali kampung tersebut sering mengadakan program bank sampah, di dalam program tersebut para warga mengumpulkan sampah baik organik maupun non organik. Sampah sisa makanan akan dikonsumsi oleh magot, sedangkan sampah sayur akan diolah menjadi pupuk kompos yang berbentuk cair dan padat. Sampah non organik yang dapat diolah akan diolah akan diolah menjadi kerajinan tangan, sedangkan sampah non organik yang tidak dapat diolah akan dijual. Sampah non organik yang bisa diolah akan dijadikan kerajinan oleh ibu – ibu di kampung tersebut dan kerajinan tersebut dapat dijual atau menjadi suvenir ketika ada tamu yang berkunjung di kampung Jambon Gesikan, untuk menaruh hasil karya tersebut kampung Jambon Gesikan memiliki tempat yaitu Kreasi Daur Ulang. ",
+          "Bank sampah di kampung tersebut juga dapat menerima berbagai macam sampah dari berbagai instansi pendidikan di daerah tersebut, sampah tersebut akan ditimbang kemudian dipilah sesuai dengan jenisnya, kemudian nasabah tersebut diberikan penawaran hasil dari pembuangan sampah tersebut akan langsung diambil atau akan ditabung terlebih dahulu ",
+          "Kampung tersebut sering kali memenangkan lomba yang berkaitan dengan lingkungan. Lomba tersebut diadakan pada tingkat kota dan Kampung tersebut sering membawa pulang beberapa kejuaraan dengan jenis lomba yang berbeda. Hal tersebut menarik perhatian pemerintah kota magelang dan para wisatawan yang ingin belajar tentang cara pengelolaan sampah dan tanaman organik. Wisatawan yang berkunjung di kampung ini berasal dari berbagai jenis usia (anak - dewasa). Pada 28 November 2023 Pemerintah magelangan akan meresmikan kampung tersebut menjadi desa wisata karena jumlah wisatawan yang semakin lama semakin meningkat.",
+          "Tanaman yang ada selain sayur dan buah juga terdapat pohon anggrek yang dibudidayakan, selain di budidayakan anggrek tersebut juga biasanya dapat dijual. Kampung Jambon Gesikan juga mendapatkan predikat sebagai ProKlim atau program kampung iklim. Hal tersebut dapat dibuktikan dengan adanya pengelolaan sampah, penanaman tanaman organik, dan terdapat jeni jenis kegiatan yang lainnya yang berkaitan dengan lingkungan disekitar. Hingga saat ini kampung Jambon Gesikan masih menerapkan program-program pengelolaan sampah untuk menjaga lingkungan dan mengurangi jumlah sampah, selain itu menanam tanaman organik agar lingkungan terlihat asri meskipun berada di Tengah perkotaan. ",
+        ],
+        images: {
+          img: Ins7,
+          caption: "Warga kampung Jambon Gesikan sedang memilah sampah",
+        },
+        release: "Senin, 27 November 2023",
+        category: "Environment",
+        author: "Genera-Z",
+      },
     },
   };
   useEffect(() => {

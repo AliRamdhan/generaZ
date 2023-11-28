@@ -35,20 +35,18 @@ const News_page = ({
             <h2 className="text-4xl font-semibold text-gray-100 leading-tight">
               {title}
             </h2>
-            <div className="flex mt-3">
-              <p className="font-medium text-gray-200 text-xs">
+            <div className="mt-3">
+              <p className="font-medium text-gray-200 text-md">
                 by <span className="font-bold"> {author} </span>
               </p>
-            </div>
-            <div className="flex mt-3">
-              <p className="font-semibold text-gray-400 text-xs"> {release} </p>
+              <p className="font-semibold text-gray-400 text-xs pt-1"> {release} </p>
             </div>
           </div>
         </div>
-        <div className="px-4 lg:px-0 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
+        <div className="px-4 mt-2 lg:px-0 text-gray-700 max-w-screen-md mx-auto text-sm leading-relaxed text-center">
           {caption}
         </div>
-        <div className="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
+        <div className="px-4 lg:px-0 mt-8 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
           {Array.isArray(deskripsi) ? (
             <>
               {deskripsi.map((paragraph, index) => (

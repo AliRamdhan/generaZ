@@ -10,6 +10,7 @@ const Header = () => {
     { title: "arts" },
     { title: "politics" },
     { title: "inspirations" },
+    { title: "environments" },
   ];
 
   const [openModal, setOpenModal] = useState();
@@ -25,10 +26,7 @@ const Header = () => {
             window.scrollY >= 50 ? "xl:hidden" : ""
           }`}
         >
-          <Link
-            to={`/`}
-            className="flex justify-center lg:justify-start"
-          >
+          <Link to={`/`} className="flex justify-center lg:justify-start">
             <img src={Logo} alt="Logo generaz" className="h-12 w-24" />
             <div>
               <p className="self-center text-xl font-semibold">GeneraZ </p>

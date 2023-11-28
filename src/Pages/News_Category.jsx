@@ -194,8 +194,8 @@ const News_All = () => {
           ],
           images: Ins6,
           release: "Senin, 27 November 2023",
-          category: "inspirations",
-          author: "Alvina Rahma Khalishafitri",
+          category: "Inspirations",
+          author: "Diah Wahyuningrum",
         },
       Menjadi_Pemenang_Kelompok_Best_Presentation_Kelompok_ini_Ternyata_Ambil_Ide_dari_Program_Kerja_Asli_BEM_FISIP_UNS:
         {
@@ -216,8 +216,8 @@ const News_All = () => {
           ],
           images: Ins1,
           release: "Selasa, 21 November 2023",
-          category: "inspirations",
-          author: "Diah Wahyuningrum",
+          category: "Inspirations",
+          author: " Alvina Rahma Khalishafitri",
         },
     },
     environments: {

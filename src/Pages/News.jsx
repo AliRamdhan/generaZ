@@ -189,7 +189,7 @@ const News = () => {
               "Asyrofi Alviadio Tjili selaku presiden BEM FT memberikan penghargaan kepada salah satu mahasiswa teknik berprestasi di acara APATIK 2023, pada Sabtu (25/11) malam depan gapura Fakultas teknik Universitas Sebelas Maret",
           },
           release: "Senin, 27 November 2023",
-          category: "Inpirasi",
+          category: "Inspirations",
           author: "Diah Wahyuningrum",
         },
       Menjadi_Pemenang_Kelompok_Best_Presentation_Kelompok_ini_Ternyata_Ambil_Ide_dari_Program_Kerja_Asli_BEM_FISIP_UNS:
@@ -211,8 +211,8 @@ const News = () => {
           ],
           images: Ins1,
           release: "Selasa, 21 November 2023",
-          category: "Inpirasi",
-          author: "Diah Wahyuningrum",
+          category: "Inspirations",
+          author: "Alvina Rahma Khalishafitri ",
         },
     },
     environments: {

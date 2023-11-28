@@ -28,7 +28,7 @@ const News_page = ({
           <div className="p-4 absolute bottom-0 left-0 z-20">
             <a
               href="#"
-              className="px-4 py-1 bg-black text-gray-200 inline-flex items-center justify-center mb-2"
+              className="px-4 py-1 bg-gray-800 text-gray-200 inline-flex items-center justify-center mb-2"
             >
               {category}
             </a>

@@ -2,14 +2,14 @@ import { useState } from "react";
 import { Button, Modal, Textarea, Label, TextInput } from "flowbite-react";
 import Hamburger from "hamburger-react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/images/logo2.png";
+import Logo from "../assets/images/logo.png";
 const Header = () => {
   const newses = [
     { title: "bisnis" },
     { title: "sports" },
     { title: "arts" },
     { title: "politics" },
-    { title: "inpirations" },
+    { title: "inspirations" },
   ];
 
   const [openModal, setOpenModal] = useState();
@@ -19,14 +19,23 @@ const Header = () => {
   const [listNews, setListNews] = useState(false);
   return (
     <>
-      <section className="2xl:w-[1400px] xl:w-[1280px] lg:w-[900px] hidden lg:flex flex-col justify-between items-center py-4 px-8 bg-[#322557] text-white">
+      <section className="2xl:w-[1560px] xl:w-[1280px] lg:w-[900px] hidden lg:flex flex-col justify-between items-center py-4 px-8 bg-[#322557] text-white">
         <div
           className={`w-full lg:flex flex-row justify-between items-center border-b relative  ${
             window.scrollY >= 50 ? "xl:hidden" : ""
           }`}
         >
-          <Link to={`/`}>
-            <img src={Logo} alt="Logo generaz" className="h-16 w-40" />
+          <Link
+            to={`/`}
+            className="flex justify-center lg:justify-start"
+          >
+            <img src={Logo} alt="Logo generaz" className="h-12 w-24" />
+            <div>
+              <p className="self-center text-xl font-semibold">GeneraZ </p>
+              <p className="self-center text-md font-semibold">
+                Inspirasi untuk GeneraZ
+              </p>
+            </div>
           </Link>
 
           <div className="w-[500px] flex justify-between items-center gap-3">
@@ -77,7 +86,7 @@ const Header = () => {
         </div>
         <nav>
           <ul
-            className={`w-full flex justify-between items-center gap-x-12 pt-4 ${
+            className={`w-full flex justify-between items-center gap-x-6 pt-4 ${
               window.scrollY >= 50 ? "xl:pt-0" : ""
             }`}
           >

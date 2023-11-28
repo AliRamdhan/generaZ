@@ -1,4 +1,12 @@
-const News_page = ({ title, release, images, deskripsi, category }) => {
+const News_page = ({
+  title,
+  release,
+  author,
+  caption,
+  images,
+  deskripsi,
+  category,
+}) => {
   return (
     <div className="max-w-screen-xl mx-auto">
       <main className="mt-10">
@@ -28,16 +36,25 @@ const News_page = ({ title, release, images, deskripsi, category }) => {
               {title}
             </h2>
             <div className="flex mt-3">
+              <p className="font-medium text-gray-200 text-xs">
+                by <span className="font-bold"> {author} </span>
+              </p>
+            </div>
+            <div className="flex mt-3">
               <p className="font-semibold text-gray-400 text-xs"> {release} </p>
             </div>
           </div>
         </div>
-
+        <div className="px-4 lg:px-0 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
+          {caption}
+        </div>
         <div className="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
           {Array.isArray(deskripsi) ? (
             <>
               {deskripsi.map((paragraph, index) => (
-                <p key={index} className="my-5">{paragraph}</p>
+                <p key={index} className="my-5">
+                  {paragraph}
+                </p>
               ))}
             </>
           ) : (

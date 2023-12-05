@@ -10,6 +10,11 @@ import Ins4 from "../assets/images/insp4.jpg";
 import Ins5 from "../assets/images/insp5.jpg";
 import Ins6 from "../assets/images/insp6.jpg";
 import Ins7 from "../assets/images/insp7.jpg";
+import Ins8 from "../assets/images/insp8.jpg";
+import Ins9 from "../assets/images/insp9.jpg";
+import Ins10 from "../assets/images/insp10.jpg";
+import Ins11 from "../assets/images/insp11.jpg";
+import Ins12 from "../assets/images/insp12.jpg";
 import ModalHighligt from "../components/ModalHighligt";
 import Simbol from "../assets/images/simbol.jpg";
 const Welcome = () => {
@@ -33,17 +38,39 @@ const Welcome = () => {
       },
     },
     bisnis: {
-      Perusahaan_XYZ_Meluncurkan_Inovasi_Terbaru_dalam_Bidang_Kesehatan: {
-        id: "Perusahaan_XYZ_Meluncurkan_Inovasi_Terbaru_dalam_Bidang_Kesehatan",
-        title:
-          "Perusahaan XYZ Meluncurkan Inovasi Terbaru dalam Bidang Kesehatan",
-        description:
-          "Perusahaan terkemuka, XYZ, mengumumkan peluncuran produk revolusioner yang akan mengubah cara kita melihat kesehatan. Artikel ini membahas fitur-fitur baru dan dampaknya.",
-        images: Simbol,
-        release: "Minggu, 19 November 2023",
-        category: "Bisnis",
-        author: "Genera-Z",
-      },
+      Banyak_Peminat_Cromboloni_di_Toko_Bolo_Bake_Manahan_Solo_Kini_Ramai_dicari_Netizen:
+        {
+          id: "Banyak_Peminat_Cromboloni_di_Toko_Bolo_Bake_Manahan_Solo_Kini_Ramai_dicari_Netizen",
+          title:
+            "Banyak Peminat : Cromboloni di Toko Bolo Bake Manahan Solo Kini Ramai dicari Netizen",
+          description: [
+            "Surakarta - Cromboloni adalah salah satu dessert yang sedang populer dan banyak diburu oleh warga net, sehingga di setiap toko yang menjualnya selalu habis terjual cepat settiap harinya. Bahkan banyak yang rela antre sebelum tokonya buka. ",
+
+            "Dessert asal Prancis ini merupakan perpaduan antara croissant dan bomboloni. Croissant yang flaky dibentuk mirip seperti bomboloni yang bulat dan diberikan filling di dalamnya.",
+
+            "Terdapat salah satu akun Tik Tok @mariavehera257 asal Dubai yang selalu membuat konten ASMR memakan cromboloni di dalam mobil. Setiap hari dia selalu mengupload video ASMR memakan Cromboloni berbagai macam rasa dan itu sangat menggiurkan siapapun yang menontonnya. Videonya kini viral dan selalu lewat di For You Page (FYP) Tik Tok banyak orang, hal itu membuat warga net mulai kepo dan tertarik untuk mencari cromboloni.",
+
+            "Di Solo, terdapat dua tempat bakery yang menjadi tujuan warga Solo untuk mencoba cromboloni, yaitu AMCO Cafe dan Bolo Bakery Manahan. Kedua tempat itu memiliki menu yang sedang banyak dicari oleh netizen. ",
+
+            "Bolo Bakery yang bertempatan di Jalan MT. Haryono No. 15, Manahan, Solo merupakan bagian dari Warteg Bolodewe yang tempatnya memang menjadi satu. Bolo Bakery sendiri menjadi spesialis menjual berbagai macam jenis dessert, mulai dari macaron, croissant, mille crepes, cake slices, cookies, dan cromboloni. Namun, selain dessert mereka juga menjual berbagai minuman untuk dinikmati bersama saat makan dessert. Diantaranya ada mulai dari berbagai macam jenis kopi (espresso, cappuccino, caffe latte, caramel latte dan masih banyak lagi varian kopi lainnya). Buat yang kurang suka dengan kopi, mereka juga menyediakan minuman non kopi, diantaranya chocolate, teh, ice lychee, dan lainnya. ",
+
+            "Jika kalian mau makan di tempat, sangat cocok dan nyaman sekali jika disambi dengan mengerjakan tugas, belajar, ataupun hanya untuk bercengkrama dengan teman dan sahabat. Karena bakery ini memiliki interior yang membuat pengunjung nyaman dan estetik yang bisa kalian gunakan untuk berfoto kemudian di upload di sosial media kalian.",
+
+            "Terdapat dua tempat yang mereka sediakan yaitu outdoor dan indoor di lantai 2 nya. Bisa digunakan sesuai kenyaman masing - masing pengunjung.",
+
+            "Cromboloni yang ramai dicari saat ini di Bolo Bakery memiliki 4 varian rasa, yakni cokelat, strawberry, red velvet, dan juga tiramisu. Harga satuannya dibanderol RP 22.000 dengan ukuran sedang dan cukup mengenyangkan.",
+
+            "‘Kami untuk sekarang menjual sekitar 200 pcs lebih dan selalu habis setiap harinya. Bahkan di pagi hari, saat toko kami baru buka sudah penuh didatangi pembeli’ kata salah satu karyawan Bolo Bakery yang biasa di panggil mas Dafa.",
+
+            "Cromboloni ini dapat dibeli langsung dan dapat dipesan dari aplikasi GOJEK dan GRAB. Selain dine-in cromboloni juga bisa dibawa pulang untuk diberikan kepada teman ataupun saudara. Setiap penyajian cromboloni sebelum diberikan kepada pelanggan, akan dipanaskan 150 derajat selama 3 menit terlebih dahulu di oven, agar saat di makan tekstur luarnya tetap flaky dan isian di dalamnya lumer.",
+
+            `‘Dari gigitan pertama aku sudah merasakan sensasi enaknya dari cromboloni. Aku sudah mencoba semua rasa yang tersedia dan yang paling favorit buat aku cromboloni strawberry, karena krim yang ada di dalamnya berasa banget dan buat aku nagih’ kata Abyan, salah satu pengunjung Bolo Bakery yang membeli cromboloni. `,
+          ],
+          images: Ins12,
+          release: "Minggu, 4 Desember 2023",
+          category: "Bisnis",
+          author: "Diah Wahyuningrum",
+        },
       Startup_Teknologi_Mendapatkan_Pendanaan_Besar_untuk_Pengembangan_Produk_Baru:
         {
           id: "Startup_Teknologi_Mendapatkan_Pendanaan_Besar_untuk_Pengembangan_Produk_Baru",
@@ -108,6 +135,23 @@ const Welcome = () => {
           category: "Sports",
           author: "Alvina Rahma Khalishafitri",
         },
+      HASIL_LAGA_SEMI_FINAL_FIFA_WORLD_CUP_U17_ANTARA_MALI_VS_PRANCIS: {
+        id: "HASIL_LAGA_SEMI_FINAL_FIFA_WORLD_CUP_U17_ANTARA_MALI_VS_PRANCIS",
+        title:
+          "Hasil Laga Semi Final FIFA WORLD CUP U17 Antara Mali vs Prancis",
+        description: [
+          ` Manahan-Surakarta – Hasil pertandingan pada gelaran piala dunia FIFA World Cup U-17 tahun 2023 anatara timnas Mali vs timnas Prancis pada Selasa (28/11/2023). Laga yang sengit tersebut berlangsung di stadion Manahan kota Surakarta dan disaksikan lebih dari 12.000 penonton. Para penonton kebanyakan di dominasi oleh warga Indonesia, namun tidak sedikit pula penonton yang berasal dari kedua negara yang bertanding pada laga tersebut (Mali & Prancis).`,
+          `Kick-off pertandingan dimulai tepat pukul 19.00 yang sebelumnya di dahului menyanyikan lagu kebangsaan dari masing-masing negara yang bertanding. Babak pertama berjalan dengan begitu sengit. Jual beli serangan dari kedua kesebelasan di lancarkan terus menerus, namun pada babak pertama ini timnas Mali terlihat lebih menguasai pertandingan. Di babak pertama ini squad timnas Prancis sangat kewalahan menghadapi serangan yang terus di lancarkan oleh timnas Mali dan hampir jarang sekali Prancis memberikan serangan balik.`,
+          `Sepanjang babak pertama berlangsung pertahanan Prancis masih tetap kokoh dan masih mampu bertahan dari gempuran serangan timnas Mali. Namun, di penghujung pertandingan babak pertama lebih tepatnya di menit tambahan waktu kesebelasan dari timnas Mali berhasil membobol gawang timnas Mali. Gol pertama tersebut dicetak oleh pemain punggung 8 yaitu Ibrahim Diarra yang mengubah skor pertandingan 1-0. Mali unggul dan skor tersebut bertahan hingga babak pertama usai.`,
+          `Di babak kedua, Prancis terlihat ingin mengejar ketertinggalan. Gaya permainan di babak kedua memiliki variasi serangan yang beberapa kali hampir membahayakan gawang timnas Mali. Serangan tersebut membuat Timnas Mali harus sedikit mundur untuk bertahan agar gawang mereka tidak terbobol. Namun, nasib beruntung lebih berpihak kepada timnas Prancis. Gol pertama muncul lewat sundulan pemain bernomor punggung 2 yang bernama Yvann Titi. Gol tersebut terjadi di menit 56 babak kedua dan sekaligus menjadi skor penyeimbang (1-1).`,
+          `Samanya kedudukan skor laga tersebut, mulai membangkitkan semangat pemain Prancis. Banyak peluang yang tercipta di laga kedua bagi Prancis, namun sayang belum dapat memberikan gol tambahan. Hingga pada menit 69 pemain Mali melakukan Pelanggaran yang berujung kartu merah di berikan oleh wasit kepada Soulemane Sanogo. Tendangan bebas berhasil dimanfaatkan oleh Prancis yang menciptakan gol kedua. Gol tersebut dicetak oleh Ismail Bouneb yang membuat Prancis unggul.`,
+          `Walaupun dalam keadaan posisi tertinggal dan bermain dengan hanya 10 pemain saja, squad timnas mali tetap menunjukkan rasa optimisme dan tidak menyerah begitu saja. Mereka mulai bangkit dan memberikan banyak serangan kegawang timnas Prancis. Prancis yang sudah unggul terpaksa harus bermain kembali dengan posisi bertahan. Namun sayang sekali usaha Mali belum berhasil untuk mengejar ketertinggalan. Skor 2-1 bertahan hingga berakhirnya pertandingan. Prancis unggul dan berhasil kebabak final untuk berhadapan dengan timnas German pada Sabtu (2/12/2023) mendatang.`,
+        ],
+        images: Simbol,
+        release: "Sabtu, 25 Novemver 2023",
+        category: "Sports",
+        author: "Abdul Nurokim",
+      },
     },
     arts: {
       UPTD_MUSEUM_SURAKARTA_GELAR_PAMERAN_PUSAKA_NUSANTARA: {
@@ -146,6 +190,23 @@ const Welcome = () => {
         release: "Minggu, 26 November 2023",
         category: "Arts",
         author: "Efraim Nicholas Hutapea",
+      },
+      Pekan_Budaya_Difabel_2023_Obah_Mamah_Mingset_Greget: {
+        id: "Pekan_Budaya_Difabel_2023_Obah_Mamah_Mingset_Greget",
+        title: "Pekan Budaya Difabel 2023 “Obah Mamah Mingset Greget”",
+        description: [
+          `Yogyakarta - Pekan Budaya Difabel (PBD) kembali digelar pada tahun ini selama tujuh hari, yakni 27 November hingga 3 Desember dengan tema Obah Mamah Mingset Greget. Pekan Budaya Difabel merupakan kegiatan rutin yang diinisiasi oleh dinas kebudayaan daerah istimewa Yogyakarta. Pekan Budaya Difabel merupakan kegiatan tahunan yang dimulai pada tahun 2019 hingga tahun 2023, Pekan Budaya Difabel tahun ini merupakan Pekan Budaya Difabel ke-5.`,
+          `Pekan Budaya Difabel mengajak teman-teman difabel dan non difabel agar dapat memeriahkan dan berpartisipasi pada acara tersebut, terdapat banyak kegiatan yang dapat  dilakukan bersama “PBD sebuah acara yang memberikan peluang kepada teman- teman difabelitas untuk bisa menunjukkan kebolehannya baik merchandise, makanan dan karya seni. Kita menyebutnya ini festival inklusi, jadi tidak melulu tentang difabelitas, tetapi teman-teman non difabelitas juga bisa gabung disini, kita juga mewadai warga lokal untuk bisa berpartisipasi,“ ujar Broto Wijayanto yang merupakan Ketua dari acara Pekan Budaya Difabel`,
+
+          `Pekan Budaya Difabel pada tahun ini diselenggarakan di Desa Wisata Rumah Domes Teletubbies Sumberharjo, Prambanan. Tempat berlangsung Pekan Budaya Difabel pada tahun ini berbeda dengan tahun-tahun sebelumnya, karena ini adalah pertama kali Pekan Budaya Difabel diadakan di desa. “Kita ingin betul-betul bersentuhan dengan Masyarakat, ketika berada di kota boleh dibilang kota itu pertama masyarakatnya sibuk dengan dirinya sendiri, lalu yang kedua Masyarakat kota sering tersosialisasi tentang disabilitas. Tetapi di Masyarakat desa itu sangat jarang, walaupun setiap kami datang di suatu wilayah tertentu pasti di desa itu ada difabel, selama ini mereka ga aware . Harapannya ketika kita pindah ke desa-desa mereka akan lebih aware orang disabilitas di sekitar mereka,” Imbuh Broto Wiajayanto`,
+
+          `Terdapat banyak sekali penampilan pentas seni di acara tersebut seperti menyanyi dengan bahasa isyarat, melukis bersama, workshop, dan berbagai acara yang lain. galeri pameran yang berasal dari berbagai yayasan  dan memamerkan karya dan cerita dari anak-anak bangsa "Ya bagus banget selain mewadahi kreativitas difabel juga bisa menambah kepercayaan diri individu difabel, karena dari pesertanya pun bukan hanya dari difabel aja melainkan umum juga. Jadi bisa menambah rasa toleran setiap individu," ujar salah satu pengunjung disana.`,
+          "Pekan Budaya Difabel dapat memberikan banyak manfaat yang positif terutama pada kegiatan bersosial, teman-teman difabel dapat berkomunikasi secara langsung dan melakukan kegiatan bersama teman teman non difabel, kita dapat bercerita dan berbagai pengalaman bersosialisasi dengan orang lain tanpa harus melihat apa latar belakang dan keadaan orang tersebut. Acara Pekan Budaya Difabel juga membantu orang orang difabel untuk lebih percaya diri walau mereka memiliki keterbatasan, mereka dapat mengikuti lomba yang diadakan oleh pameran tersebut dan mereka juga bisa menuangkan bakat mereka dengan adanya pekan budaya difabel tersebut.",
+        ],
+        images: Ins11,
+        release: "Minggu, 4 Desember 2023",
+        category: "Arts",
+        author: "Farah Salsabilla ",
       },
     },
     politics: {
@@ -204,6 +265,64 @@ const Welcome = () => {
           release: "Selasa, 21 November 2023",
           category: "Inspirations",
           author: " Alvina Rahma Khalishafitri",
+        },
+      SOLO_KOTA_TOLERANSI_NUANSA_NATAL_DI_BALAI_KOTA_SURAKARTA_2023: {
+        id: "SOLO_KOTA_TOLERANSI_NUANSA_NATAL_DI_BALAI_KOTA_SURAKARTA_2023",
+        title: "SOLO KOTA TOLERANSI: NUANSA NATAL DI BALAI KOTA SURAKARTA 2023",
+        description: [
+          "Surakarta – Akhir tahun memang selalu menjadi momen yang ditunggu – tungu, pastinya genera – z juga menunggu momen di akhir tahun. Momen di akhir tahun memang sangat indah, dimana kita semua bisa bertemu dengan keluarga dan teman di rumah, serta dapat tertawa dan bersyukur bersama.",
+          "Di akhir tahun pastinya tidak lepas juga dengan kegiatan natal dari mereka yang bergama kristen. Walaupun kegiatan natal berasal dari agama kristen, momen ini biasanya tetap dapat dinikmati oleh berbagai struktur masyarakar, kususnya di negara Indonesia. Hal ini dapat terjadi karena Negara Indonesia menjunjung tinggi semboyan ”Bhineka Tunggal Ika”. Semboyan ini memiliki arti berbeda – beda tetapi satu jua, dimana hal ini mengantarkan Negara Indonesia untuk saling menghargai dan bertoleransi, pastinyta genera – z juga menjunjung tinggi semboyan ini kan.",
+          "Salah satu bentuk nyata dari pengaplikasian semboyan ini ditunjukan oleh lapisan pemerintahan dan juga masyarakat dari Kota Surakarta. Pemerintah Kota Surakarta memang terkenal selalu membuat berbagai hiasan untuk berbagai acara keagamaan di area Balai Kota Surakarta.",
+          "”Kota surakarta ini memang terkenal dengan hiasannya ya dari dulu, tiap acara semua kagamaan pasti Kota Surakarta menunjukan dukungannya dengan membuat dekorasi dan hiasan di sekitar Balai Kota Surakarta. Ini juga salah satu bentuk bahwa Negara Indonesia memang keren banget, karena kita saling menghargai dan juga mau untuk bertoleransi”. Perkataan dari salah satu penjual makanan di area Balai Kota Surakarta.",
+          "Di akhir tahun ini, karena sudah dekat dengan acara kegamaan kristen yaitu natal, Pemerintah Kota Surakarta turut membuat berbagai macam hiasan dan dekorasi di sekitar Balai Kota Surakarta. Dekorasi ini menambah keindahan dan kehangatan nuansa natal di Kota Surakarta.",
+          "”Ya pastinya saya senang sekali ya dengana danya dekorasi dan hiasan natal sini, selain memperindah Kota Surakarta, hiasannya juga menambah kegembiraan dan kehangatan nuansa natal di Kota Surakarta, dan pastinya ini sangat dihargai saya yang beragama kristen”. Ujar salah seorang warga di area Balai Kota Surakarta.",
+          "Dekorasi dan hiasan nuansa natal di area Balai Kota Surakarta memiliki berbagai bentuk dan macam mulai dari, lampu – lampu lapion, banner ucapan, dan juga berbagai boneka – boneka yang biasanya dipakai dalam acara natal. Luar biasanya hiasan dan dekorasi ini dilapisi dengan berbagai lampu neon yang menyala, sehingga memperindah berbagai dekorasi yang digunakan dan juga sekaligus memperindah Balai Kota Surakarta. Jadi genera – z jangan sampai kelewatan ni.",
+          "Dekorasi natal yang dipasang dan diletakan di area Balai Kota Surakarta memang menunjukan bahwa Kota Surakarta merupakan kota yang memiliki kemampuan menghargai dan bertoleransi yang sangat tinggi dan baik. Tidak hanya di lapisan pemerintahan, Warga Kota Surakarta pun juga menunjukan hal yang sama, dengan tidak adanya sama sekali protes ataupun ketidak sukaan dengan dekorasi dan hiasan nuansa natal di Balai Kota Surakarta.",
+        ],
+        images: Ins8,
+        release: "Minggu, 4 Desember 2023",
+        category: "Inspirations",
+        author: "Efraim Nicholas Hutapea",
+      },
+      Rela_Bangun_Pagi_PIK_R_Cakra_UNS_Rayakan_Hari_Aids_Sedunia_di_Car_Free_Day:
+        {
+          id: "Rela_Bangun_Pagi_PIK_R_Cakra_UNS_Rayakan_Hari_Aids_Sedunia_di_Car_Free_Day",
+          title:
+            "Rela Bangun Pagi, PIK-R Cakra UNS Rayakan Hari Aids Sedunia di Car Free Day",
+          description: [
+            "Surakarta – Memperingati Hari AIDS Sedunia PIK-R Cakra UNS mengadakan program kerja ‘Hari AIDS Sedunia’ pada Minggu (3/12/2023) di deretan Jalan Slamet Riyadi dalam kegiatan Car Free Day (CFD). Mereka mendirikan stand di salah satu titik jalur CFD, tepatnya di depan gedung Loji Gandrung yang dihiasi dengan berbagai macam poster terkait HIV dan AIDS, yang telah mereka siapkan sebelumnya. Mereka juga telah berada di lokasi sebelum waktu CFD dimulai, tepatnya pukul 05.00 WIB dan itu membuat para pengurus PIK-R Cakra harus bangun pagi.",
+            "Selama berlangsungnya kegiatan CFD, mereka melakukan kampanye dengan bersorak “Selamat Hari Aids Sedunia” dan “Jauhi penyakitnya, bukan orangnya”, serta mengajak para remaja dan orang tua untuk menuliskan di sticky-notes berupa pesan-pesan terkait peringatan hari ini. Jika terdapat anak kecil yang mengunjungi stand ini maka akan diberikan permen dan stiker, serta tidak lupa untuk memberikan pita bewarna merah sebagai simbol yang khas ketika membahas HIV dan AIDS, kemudian foto bersama dengan pengunjung stand.",
+            "“Jadi untuk konsep hari aids inikan kampanye, dan itu pasti harus di ruang terbuka, tempat umum, di kawasan yang sekiranya bisa memberikan edukasi untuk masyarakat, jadi kenapa aku milih konsepnya seperti itu, karena disini tujuannya untuk mengedukasi dan mengajak masyarakat dalam upaya pencegahan HIV dan AIDS, oleh karena itu pasti perlu tempat terbuka untuk menjangkau target-target yang kita tuju,” jelas Indah (19) yang merupakan penanggung jawab dari kegiatan ini, sekaligus salah satu pengurus dari PIK-R Cakra. Kegiatan yang telah mereka persiapkan selama kurang lebih satu minggu ini memiliki kesan tersendiri bagi Indah (19) karena ia tidak membagikan jobdesk khusus untuk kegiatan ini, sehingga dikerjakan bersama dan itu membuat anggota dari Divisi Hubungan Masyarakat (Humas), selaku pelaksana utama dalam kegiatan ini menjadi berkumpul kembali.",
+            "Tidak hanya berdiam diri di stand, terdapat beberapa orang juga yang keliling sepanjang jalur CFD ini untuk berkampanye. Kampanye tersebut juga tidak hanya dilaksanakan secara luring, namun juga terdapat kampanye secara daring dengan cara seluruh pengurus PIK-R Cakra wajib mengunggah twibbon terkait Hari AIDS Sedunia yang telah disediakan oleh pelaksana, kemudian di unggah ke akun instagram masing-masing pengurus.",
+            "“Dalam rangka memperingati hari aids yang jatuh pada tanggal 1 desember 2023, bersama dengan pikr cakra melakukan campaign di sekitar CFD ikut terlibat dalam kegiatan campaign tentunya memberikan kesan tersendiri dengan lebih bermakna, pesan yang dapat saya berikan semoga semakin banyak masyarakat terutama remaja agar lebih peduli terhadap para penderita ODHA,” komentar Fitri (19) yang merupakan Juara kedua Duta Genre Surakarta, yang juga merupakan salah satu pengurus PIK-R Cakra UNS, yang ikut meramaikan program kampanye ini.",
+            "Indah (19) berharap dengan adanya program kerja ini dapat menumbuhkan rasa peduli dan menambahkan pengetahuan kepada kita semua tentang HIV dan AIDS, khususnya kepada masyarakat. ",
+          ],
+          images: Ins9,
+          release: "Minggu, 19 November 2023",
+          category: "Inspirations",
+          author: "Genera-Z",
+        },
+      SAMBUT_HARI_NASIONAL_UNI_EMIRAT_ARAB_MASJID_SHEIKH_ZAYED_SOLO_GELAR_PERTUNJUKAN_KEMBANG_API:
+        {
+          id: "SAMBUT_HARI_NASIONAL_UNI_EMIRAT_ARAB_MASJID_SHEIKH_ZAYED_SOLO_GELAR_PERTUNJUKAN_KEMBANG_API",
+          title:
+            "Sambut Hari Nasional Uni Emirat Arab, Masjid Sheikh Zayed Solo Gelar Pertunjukkan Kembang Api",
+          description: [
+            "Pada malam Minggu ini Masjid Zayed lebih ramai dari biasanya. Para pengunjung yang berasal dari kota Solo maupun wisatawan luar kota turut antusias untuk menyaksikan pertunjukan kembang api di kawasan masjid.",
+            "Pihak operasional masjid menyelenggarakan pertunjukan kembang api ini untuk merayakan National Day atau Hari Nasional Uni Emirat (UEA) ke-52. Hal ini tak terlepas dari hubungan persahabatan antara Indonesia dengan UEA, salah satunya ditandai dengan keberadaan Masjid Zayed. Masjid ini dibangun dan beroperasi dengan pembiayaan langsung dari pemimpin UEA, Sheikh Mohammed bin Zayed al Nahyan atau Sheikh Zayed. Bendera UEA dan Indonesia juga terpasang berdampingan di beberapa sudut masjid ini sebagai tanda penghormatan.",
+            "Sejak Magrib masjid telah dipadati oleh pengunjung. Mereka datang untuk berwisata religi sekaligus menantikan pertunjukan kembang api yang akan dihelat. Dengan bimbingan imam masjid, di sela-sela waktu tersebut kegiatan diisi lantunan zikir dan doa-doa untuk kemakmuran dan kesejahteraan kedua bangsa (Indonesia dan UEA).",
+            "“Bapak-bapak, Ibu-ibu dan para tamu sekalian. Kami beritahukan bahwa pada malam hari ini akan dilaksanakan zikir dan doa bersama untuk kemakmuran dan kesejahteraan negara Uni Emirat Arab dan negara kita Indonesia. Kami imbau Anda sekalian untuk tetap berada di tempat sampai selesai salat Isya dan zikir, baru setelah itu sama-sama kita saksikan pertunjukan kembang api.” Sebagaimana keterangan panitia masjid melalui pengeras suara.",
+            "Setelah azan Isya berkumandang, pengunjung merapat ke dalam masjid untuk melaksanakan ibadah salat. Usai 4 rakaat salat wajib dan zikir, mereka menuju halaman untuk menantikan acara puncak.",
+            "Cuaca gerimis malam itu tak menyurutkan antusiasme masyarakat untuk tetap berada di tempatnya menyaksikan pertunjukan yang akan disuguhkan. Halaman masjid lebih padat dari biasanya, yang dari luar pagar juga turut menanti. Namun karena kondisi agak basah di tengah hujan gerimis, kembang api tidak langsung dinyalakan. Operator mengimbau masyarakat untuk menunggu beberapa saat lagi karena kembang api baru akan dinyalakan pada pukul 07.45.",
+            "Setelah sekitar setengah jam berlalu, dari pengeras suara panitia masjid kembali menyapa masyarakat dan diambil alih oleh imam besar masjid yang akan menghitung mundur sebelum kembang api dinyalakan.",
+            "“Sepuluh.. Sembilan.. Delapan.. Tujuh.. Enam.. Lima.. Empat.. Tiga.. Dua.. Satu..” Suara yang langsung diiringi dengan lesatan kembang api menghiasi langit di atas kubah Masjid Zayed. Tak ingin ketinggalan, masyarakat mengabadikan momen tersebut dengan melakukan pengambilan gambar dan video.",
+            "Pengadaan kembang api dalam pertunjukan ini merupakan pemberian dari UEA, hal yang senada dengan komitmen pihak Sheikh Mohammed bin Zayed untuk senantiasa memberikan dukungan bagi operasional masjid.",
+            "Selain kembang api, pengunjung juga dapat mengikuti photo booth challenge berhadiah jutaan rupiah dan suvenir Al – Quran dari UEA. Festival ini masih akan berlangsung pada  1 – 5 Desember 2023.",
+          ],
+          images: Ins10,
+          release: "Minggu, 4 Desember 2023",
+          category: "Inspirations",
+          author: "Fatih Rohardiansyah",
         },
     },
     environments: {

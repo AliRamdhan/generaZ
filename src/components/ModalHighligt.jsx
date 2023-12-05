@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button, Modal } from "flowbite-react";
-import Ins1 from "../assets/images/Insp1.jpg";
+import Ins7 from "../assets/images/insp7.jpg";
 import { Link } from "react-router-dom";
 const ModalHighligt = () => {
   const [openModal, setOpenModal] = useState(true);
@@ -47,16 +47,18 @@ const ModalHighligt = () => {
       popup: "border-t",
     },
   };
+
   const highlight = {
-    id: "Menjadi_Pemenang_Kelompok_Best_Presentation_Kelompok_ini_Ternyata_Ambil_Ide_dari_Program_Kerja_Asli_BEM_FISIP_UNS",
-    title:
-      "Menjadi Pemenang Kelompok ‘Best Presentation’, Kelompok ini Ternyata Ambil Ide dari Program Kerja Asli BEM FISIP UNS",
+    id: "Menelusuri_Salah_Satu_Kampung_ProKlim_di_Magelang",
+    title: "Menelusuri Salah Satu Kampung ProKlim di Magelang",
     descriptions:
-      "Surakarta – Badan Eksekutif Mahasiswa Fakultas Ilmu Sosial dan Politik Universitas Sebelas Maret (BEM FISIP UNS) mengadakan program kerja latihan kepemimpinan kepada mahasiswa FISIP yang dikenal dengan LKMM Dasar atau LKMM-D. Kegiatan yang dilaksanakan dua hari ini, mulai dari Sabtu (4/11/2023) hingga Minggu (5/11/2023) mengimbau para peserta untuk berdiskusi terkait studi kasus yang sering terjadi pada organisasi, yang dimana setiap kelompoknya mendapat studi kasus yang berbeda, untuk dipresentasikan pada hari kedua dari kegiatan ini.",
-    images: Ins1,
-    release: "2023-11-21",
-    category: "Inpirasi",
+      "Dalam beberapa tahun belakangan ini, kawasan kampung Jambon Gesikan, Cacaban, Magelang Tengah, Kota Magelang menarik perhatian masyarakat di Jawa Tengah hingga di luar pulau jawa sebagai salah satu tempat belajar mengelola sampah dan tanaman organik. Hal tersebut memiliki dampak baik bagi kemajuan kampung tersebut......",
+    images: Ins7,
+    release: "Senin, 27 November 2023",
+    category: "Environment",
+    author: "Farah Salsabila",
   };
+
   return (
     <>
       <Modal theme={theme} show={openModal} onClose={() => setOpenModal(false)}>

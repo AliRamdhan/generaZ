@@ -300,7 +300,7 @@ const Welcome = () => {
           images: Ins9,
           release: "Minggu, 19 November 2023",
           category: "Inspirations",
-          author: "Genera-Z",
+          author: "Alvina Rahma Khalishafitri",
         },
       SAMBUT_HARI_NASIONAL_UNI_EMIRAT_ARAB_MASJID_SHEIKH_ZAYED_SOLO_GELAR_PERTUNJUKAN_KEMBANG_API:
         {

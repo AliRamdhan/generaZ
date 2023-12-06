@@ -306,7 +306,7 @@ const News = () => {
             "Pengurus PIK-R Cakra UNS sedang melakukan kampanye Hari AIDS Sedunia di Car Free Day pada Minggu (3/12/2023).",
           release: "Minggu, 19 November 2023",
           category: "Inspirations",
-          author: "Genera-Z",
+          author: "Alvina Rahma Khalishafitri",
         },
       SAMBUT_HARI_NASIONAL_UNI_EMIRAT_ARAB_MASJID_SHEIKH_ZAYED_SOLO_GELAR_PERTUNJUKAN_KEMBANG_API:
         {

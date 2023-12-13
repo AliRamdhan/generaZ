@@ -15,6 +15,12 @@ import Ins9 from "../assets/images/insp9.jpg";
 import Ins10 from "../assets/images/insp10.jpg";
 import Ins11 from "../assets/images/insp11.jpg";
 import Ins12 from "../assets/images/insp12.jpg";
+import Ins13 from "../assets/images/insp13.jpg";
+import Ins14 from "../assets/images/insp14.jpg";
+import Ins15 from "../assets/images/insp15.jpg";
+import Ins16 from "../assets/images/insp16.jpg";
+import Ins17 from "../assets/images/insp17.jpg";
+import Ins18 from "../assets/images/insp18.jpg";
 import ModalHighligt from "../components/ModalHighligt";
 import Simbol from "../assets/images/simbol.jpg";
 const Welcome = () => {
@@ -152,6 +158,27 @@ const Welcome = () => {
         category: "Sports",
         author: "Abdul Nurokim",
       },
+      STADION_UNS_SAYONARA_PIALA_DUNIA_U_17_SELAMAT_DATANG_LAPANGAN_BARU: {
+        id: "STADION_UNS_SAYONARA_PIALA_DUNIA_U_17_SELAMAT_DATANG_LAPANGAN_BARU",
+        title:
+          "STADION UNS: SAYONARA PIALA DUNIA U-17, SELAMAT DATANG LAPANGAN BARU",
+        description: [
+          "Surakarta – Kondisi terkini rumput Stadion UNS pasca pergelaran Piala Dunia U-17 di Surakarta. Tampak wajah baru lapangan hijau yang telah bermotif gelap-terang saat dikunjungi pada Selasa (05/12/2003).",
+          "Kota Surakarta baru saja menyelesaikan tugasnya sebagai salah satu tuan rumah kejuaraan sepak bola FIFA World Cup U-17 2023. Bersama 3 kota lain (Jakarta, Bandung, dan Surabaya), Stadion Manahan, Surakarta menjadi saksi mati atas kemenangan Timnas U-17 Jerman di partai puncak pada Sabtu (02/12/2003).",
+          "Di bawah komando Christian Wuck, tim panser muda keluar sebagai juara setelah menggulung Timnas Perancis dengan skor 4-3 melalui drama adu penalti.",
+          "Universitas Sebelas Maret (UNS) tak mau ketinggalan dengan euforia turnamen 4 tahunan tersebut. Meskipun bukan sebagai venue pertandingan secara langsung, UNS berkesempatan menyambut pemain-pemain muda yang hadir.",
+          "Keberadaan Stadion UNS yang berlokasi di area dekat gerbang belakang berhasil terpilih menjadi salah satu tempat latihan tim peserta Piala Dunia U-17. Diketahui, pihak kampus UNS memang memiliki stadion sepak bola yang secara ukuran maupun kondisi lapangan sudah memenuhi standar, namun mengingat begitu besarnya skala turnamen yang digelar tersebut, stadion ini sempat ditutup sementara untuk perawatan.",
+          "Menurut pengelola lapangan, turnamen ini merupakan hajatan berskala Internasional yang belum tentu terulang kembali. Maka dari itu, UNS sebagai bagian dari Surakarta harus mendukung penuh suksesnya acara ini. Tidak main-main, selain melakukan penggantian pada rumput lapangan, area parkir stadion juga telah mengalami sterilisasi. Mahasiswa setempat diimbau untuk memarkir dan berolahraga di spot-spot lain.",
+          "Stadion UNS sudah dinyatakan 100% siap digunakan berlatih sejak pertandingan pembuka Grup B antara Mali vs Uzbekistan dan Spanyol vs Kanada. Surakarta juga menjadi tuan rumah tersibuk setelah terpilih menjadi tempat pertandingan di segala fase (penyisihan, 16 besar, perempat-final, semi-final, dan final). Oleh karena itu, Stadion UNS juga tidak pernah absen dalam setiap sesi latihan tim peserta.",
+          "Hingga perhelatan Piala Dunia U-17 selesai, Stadion UNS mengalami perubahan positif. Salah satu yang paling mencolok adalah dari kualitas lapangan. Menjadi lapangan latih dalam turnamen sepak bola internasional tentu dituntut untuk memenuhi kriteria yang ditetapkan federasi nasional dan asosiasi sepak bola dunia.",
+          "Lapangan Stadion UNS kini telah mengantongi lisensi sebagai lapangan berstandar FIFA (Fédération International de Football Association). Lisensi tersebut diberikan setelah pihak pengelola melakoni serangkaian proses ketat dalam perawatan rumput, penanaman, penyiraman, dan pemangkasan, semuanya harus sesuai prosedur.",
+          "Hasil yang paling terlihat secara kasat mata adalah kualitas dan visual rumput. Dari yang semula hanya lapangan flat, kini semakin cantik dengan pola gradasi bergaris-garis ala stadion-stadion di Eropa. Hal ini menuai respons positif warga kampus setelah stadion dibuka kembali pada Selasa (05/12/2023). Mereka mengaku senang dan berharap agar keberadaan lapangan stadion yang semakin bagus ini dapat terus dirawat dan dijaga kualitasnya.",
+        ],
+        images: Ins18,
+        release: "5,12 Desember 2023",
+        category: "Sports",
+        author: "Fatih Rohardiansyah",
+      },
     },
     arts: {
       UPTD_MUSEUM_SURAKARTA_GELAR_PAMERAN_PUSAKA_NUSANTARA: {
@@ -208,6 +235,37 @@ const Welcome = () => {
         category: "Arts",
         author: "Farah Salsabilla ",
       },
+      DKVACT_9_KONTINÜ_Jangan_Dilewati_Pameran_Tahunan_oleh_Mahasiswa_DKV_ISI_Surakarta:
+        {
+          id: "DKVACT_9_KONTINÜ_Jangan_Dilewati_Pameran_Tahunan_oleh_Mahasiswa_DKV_ISI_Surakarta",
+          title:
+            "DKVACT 9 KONTINÜ : Jangan Dilewati Pameran Tahunan oleh Mahasiswa DKV ISI Surakarta",
+          description: [
+            "DKVACT merupakan event pameran tahunan yang diselenggarakan oleh mahasiswa Program Studi Desain Komunikasi Visual mahasiswa Institut Seni Indonesia Surakarta yang dipegang oleh mahasiswa tahun 2020-2022. Terdapat keunikan dari event pameran ini, salah satunya adalah tema yang dibawakan setiap acara ini adalah menggunakan sistem lanjutan yang dari setiap event per tahunnya memiliki cerita yang berlanjut.",
+
+            "Konsep acara DKVACT 9 KONTINÜ ini memiliki harapan dapat membawa keberlanjutan dan kehidupan yang saling berkesinambungan. ",
+
+            "Acara ini diselenggarakan selama 3 hari mulai dari hari Jumat (8/12/2023)) hingga Minggu (10/12/23), yang bertempat di Ndalem Joyokusuman, Mangkubumen, Surakarta. Pameran ini dibuka untuk umum dan  free entry  mulai pukul 13.00 hingga 22.00, siapapun boleh masuk tanpa syarat apapun.",
+
+            "Terdapat workshop di pameran ini yang terbuka untuk umum, bertempat di aula tengah Ndalem Joyokusuman. Setiap harinya ada pembicara hebat yang berbeda untuk mengisi workshop ini. Dihari pertama membawa tema “Elevating Design and Advertising with Copywriting Mastery” dibawa oleh mas Rahardhian Galang Wicaksono yang merupakan CEO dari Sumur Creative. Dilanjut di hari kedua membawa kedua membawa tema “Exploring The Secret Design Mechanism of Pop-Up” yang dibawa oleh Mayang Maradianti yang merupakan owner Kebak Bejo Creative. Di hari terakhir di isi oleh Bramasta aji yang merupakan founder Unreal studio dan ilustrator, dengan isi pembahasan seputar “Unflod Game Illustration Industry with Unreal Studio”.",
+
+            "Dalam event ini, selain terdapat exhibition hasil karya ada juga workshop yang boleh dinikmati hasil karyanya oleh siapapun. Hasil karya yang dipamerkan di DKVACT merupakan hasil kumpulan karya dari mahasiswa DKV ISI Surakarta mulai dari mahasiswanya bahkan alumni juga ada yang ikut serta memamerkan karyanya.",
+
+            "Selain pameran dan workshop, DKVACT di tahun ini mengadakan permainan boardgame table bersama  dan tentunya gratis buat siapapun,  dan jika kita belum bisa memainkannya, nanti oleh panitia akan diajarkan sampai kita bener - bener bisa memainkannya. Game ini berlangsung selama 3 hari acara di bagian timur ruangan.",
+
+            "Pengunjung dilarang untuk membawa makanan dan minuman dari luar,  tetapi jika kalian ingin keliling pameran sambil makan atau minum, disana ada banyak sekali tenant - tenant makanan dan minuman yang bisa dibeli. Ada juga photobooth with SSSSESI, buat kalian yang ingin mengabadikan momen atau berfoto bersama teman bisa banget buat dateng ke booth ini.",
+
+            "“Kalau kalian tertarik di pojok Ndalem Joyokusuman ada satu booth yang diisi untuk tempat lelang hasil karya. Yang dimana hasil karya yang dijual ini, uangnya sebagian akan disumbangkan ke para tuna netra Surakarta,  kita emang kerja sama bareng dengan para tuna netranya,” kata salah satu panitia yang menjaga pintu registrasi.",
+
+            "Nama acara lelangnya adalah “Ecoprint Art Auction”. Ecoprint adalah salah satu seni cetak alami yang menggabungkan keindahan daun, bunga, batang, dan bahan alam lainnya sebagai “stempel” dengan teknik cetak tradisional. Hasil lelang karya akan diumumkan di night awarding DKVACT pada tanggal 10 desember.",
+
+            "“Suasana di dalem pameran terasa sunyi dan lumayan tenang, kalau boleh saran bisa disambi dengan memutar musik biar feelnya tidak terlalu sunyi,” kata najwa salah satu pengunjung DKVACT malam itu.",
+          ],
+          images: Ins17,
+          release: "Minggu, 9 Deseember 2023",
+          category: "Arts",
+          author: "Diah Wahyuningrum",
+        },
     },
     politics: {
       POLITICS: {
@@ -219,6 +277,23 @@ const Welcome = () => {
         release: "Senin, 20 November 2023",
         category: "Politics",
         author: "Genera-Z",
+      },
+      RAPAT_ANGGOTA_HIMAKOM_UNS_XXVIII_20232024_HARI_KEDUA: {
+        id: "RAPAT_ANGGOTA_HIMAKOM_UNS_XXVIII_20232024_HARI KEDUA",
+        title: "RAPAT ANGGOTA HIMAKOM UNS XXVIII 2023/2024 HARI KEDUA",
+        description: [
+          "Surakarta - Rapat Anggota HIMAKOM UNS XXVIII 2023/2024 telah berlansung pada Sabtu (9/12/2023) hingga Minggu (10/12/2023). Rapat tersebut berlangsung di Ruang Seminar FISIP UNS mulai pukul 09.00-16.00 WIB. Total 68 peserta yang hadir didalam rapat tersebut, meliputi PHT (Pengurus Harian Tetap) dan juga Pengurus HIMAKOM UNS periode 2023/2024. Rapat tersebut di pimpin oleh Presidium I (Bagus Panji Amrullah) dan Presidium II (Marselly Qonita Fathi Yasina)",
+          "Rapat yang sekaligus menjadi forum evaluasi kepengurusan selama satu periode kepengurusan tersebut membahas dan mendiskusikan tentang “Garis-garis besar haluan organisasi HIMAKOM UNS”. Didalam pembahasan tersebut terdapat diskusi yang berlangsung, mulai dari usul pengajuan program kerja hingga usulan perubahan beberapa sistem program kerja dari beberapa devisi. Tujuannya agar dapat lebih memaksimalkan dan menjadikan periode selanjutnya menjalankan program kerja lebih baik lagi.",
+          "“Proses keberjalanan rapat berjalan lancar dari awal sampai akhir, kondisi peserta juga tertib mengikuti rangkaian dari awal hingga selesai, tetapi di beberapa kesempatan masih ada peserta yang melanggar peraturan, tetapi tidak sampai mengganggu jalannya rapat,” ujar Arif Mulyawan selaku Ketua HIMAKOM UNS periode 2023.",
+          "Menurut Arif Mulyawan, atau kerap disapa Armul, menyampaikan bahwa rapat berjalan dengan baik dan lancar walaupun dalam beberapa waktu terdapat peserta yang melanggar ketertipan. Armul juga berharap agar evaluasi pada rapat tersebut dapat menjadi acuan pengurus HIMAKOM UNS periode selanjutnya.",
+          "“Harapannya adalah semoga evaluasi yang dilakukan kemarin bisa menjadi acuan perbaikan untuk kabinet selanjutnya dan juga bisa menjadikan himakom menjadi organisasi yang lebih progresif di tangan pengurus selanjutnya,” tambah Armul.",
+          "Berlangsunya Rapat Anggota HIMAKOM UNS (RAH) kali ini memiliki banyak harapan dari pengurus. Selain untuk mengevaluasi kekurangan di tahun ini, dengan adanya rapat ini di harapkan dapat meningkatkan dan mengoptimalkan kinerja pada periode mendatang (2024/2025). Evaluasi di rapat ini juga mendapat banyak masukan dari PHT-PHT tahun sebelumnya. Masukan dan saran yang di berikan banyak menyinggung salah satu program kerja baru yang di usulkan oleh salah seorang pengurus HIMAKOM UNS periode 2023/2024, yaitu berkaitan dengan pengabdian ke desa. PHT memberikan saran agar lebih memikirkan lebih matang lagi mengenai program kerja baru tersebut. Karena mempertimbangkan program tersebut merupakan program yang besar, membutuhkan banyak dana, dan juga membutuhkan waktu yang terbilang cukup lama.",
+          "Pada kesempatan lain, kami juga sempat mewawancarai Kevin Rynaldi selaku PHT. Dia mengatakan bahwa iklim diskusi berjalan dengan bertanya dan memberikan tanggapan serta juga berfikir kritis. Menurutnya iklim tersebut harus terus dikembangkan dan di bangun dalam HIMAKOM UNS. Dia juga menyampaikan harapannya kepada HIMAKOM UNS agar lebih baik dan berkembang untuk periode selanjutnya serta agar selalu belajar dari evaluasi yang telah ada.",
+        ],
+        images: Ins15,
+        release: "Minggu, 10 Desember 2023",
+        category: "Politics",
+        author: "Abdul Nurokim",
       },
     },
     inpirations: {
@@ -323,6 +398,60 @@ const Welcome = () => {
           release: "Minggu, 4 Desember 2023",
           category: "Inspirations",
           author: "Fatih Rohardiansyah",
+        },
+      Kajian_Ustadz_Hanan_Attaki_Melawan_Ketidakpastian: {
+        id: "Kajian_Ustadz_Hanan_Attaki_Melawan_Ketidakpastian",
+        title: "Kajian Ustadz Hanan Attaki Melawan Ketidakpastian",
+        description: [
+          "Yogyakarta - Ustadz Hanan Attaki kembali menyapa warga Yogyakarta melalui kajian yang bertema “Uncertainty”.  Banyak sekali masyarakat muslim Indonesia, khususnya yang berdomisili di Yogyakarta yang berantusias mengikuti kajian tersebut, hal tersebut dapat dilihat dari jemaah yang berdomisili dari luar provinsi hingga yang berdomisili di Yogyakarta. Kajian tersebut dibagi menjadi empat sesi, yaitu sesi pagi pada pukul 07.00, sesi siang pada pukul 10.00, sesi sore pada pukul 15.30, dan sesi malam pada pukul 19.00.",
+          "Acara tersebut dimulai dengan pembukaan, ice breaking, kajian, sesi tanya jawab, doa dan shalat berjamaah. Kajian yang bertemakan “Uncertainty” memiliki arti ketidakpastian. Ketidakpastian dalam hidup terkadang membuat kita semakin jauh dari Allah SWT karena selalu bersifat pesimis. Dalam kajian tersebut ustadz Hanan Attaki berbagai cara bagaimana menghadapi ketidakpastian yang sedang terjadi. Ketidakpastian yang sedang terjadi dapat dihadapi dengan cara beroptimis atau tafa`ul, karena salah satu profil dari seorang yang beriman adalah optimis.",
+          "Ustadz Hanan Attaki menceritakan bagaimana optimis tersebut dapat terjadi melalui cerita Nabi yang beliau sampaikan. Optimis merupakan salah satu cara yang dapat kita lakukan agar selalu melakukan hal yang baik “Sebaik baiknya umatku yang bertahan adalah orang yang berjuang di perang asqalan,” ujar ustadz Hanan Attaki. Ustadz Hanan Attaki juga menyampaikan  bagaimana belajar mengenai iman seseorang agar selalu beroptimis ketika melakukan suatu kegiatan “Belajar iman bukan soal wawasan, tetapi keyakinan kita pada Allah SWT. Maka sesungguhnya orang yang benar-benar beriman adalah orang yang memiliki sifat tafa'ul.",
+          "Lebih lanjut, ustadz Hanan Attaki mengatakan bahwa kita harus beroptimis meskipun sedang mengalami kesulitan , analogi optimis Islam diajarkan saat peperangan dizaman Nabi Muhammad SAW. Siapapun orang yang mendapatkan kemudahan kemudian membicarakan soal keindahan maka itu bukan sifat optimis, karena optimis lebih baik dibicarakan saat ada kesulitan.",
+          "Ustadz Hanan Attaki juga mengingatkan kita agar tidak berpikiran pesimis, karena Allah SWT akan menjanjikan sebuah kebaikan kepada umatnya. “Maka orang beriman menunggu takdir Allah SWT dengan kesabaran dan shalat. Oleh karena itu jika kita sedang pesimis maka berwudhulah karena kepesimisan kita berasal dari setan,” ujar ustaz Hanan Attaki. Berdasarkan kajian yang ustaz Hanan Attaki berikan mengingatkan kita agar selalu melibatkan Allah dari segala hal atau kegiatan di kehidupan kita.",
+          "Selain membahas tentang optimis dan pesimis, ustaz Hanan Attaki juga membahas tentang jodoh karena pertanyaan dari salah satu jemaah “Kita boleh menyebutkan nama yang kita suka ke dalam doa, tetapi jangan kecewa jika orang tersebut bukan jodoh kita. Jodoh sudah diatur, tetapi tidak ada salahnya kita menyebutkan kriteria yang kita inginkan melalui orang lain, dan jangan lupa untuk memantaskan diri kita terlebih dahulu agar jodoh kita bisa sesuai dengan standar kita.",
+        ],
+        images: Ins13,
+        release: "Kamis, 08 Desember 2023",
+        category: "Inspirations",
+        author: "Farah Salsabilla",
+      },
+      HEROES_KEHANGATAN_DAN_SUKACITA_NATAL_PMK_FISIP_UNS_2023: {
+        id: "HEROES_KEHANGATAN_DAN_SUKACITA_NATAL_PMK_FISIP_UNS_2023",
+        title: "HEROES: KEHANGATAN DAN SUKACITA NATAL PMK FISIP UNS 2023",
+        description: [
+          "Surakarta – Akhir tahun sudah kurang dari satu bulan lagi, hal ini menandakan kegiatan keagamaan dari agama krsiten juga sudah sangat dekat. Kegiatan keagamaan yang sedang dibahas ini adalah kegiatan natal. Banyak sekali umat kristiani maupun khatolik yang sudah memulai merancang dan mempersiapkan acara besar dari hari kegiatan keagamaan natal tersebut, bahkan ada yang sudah melaksanakan hari perayaanya.",
+          "Hal ini dapat kita temukan dalam unit kegiatan mahasiswa PMK FISIP UNS, yang sore hari ini telah melaksanakan serta merayakan kegiatan keagamaan acara natal. Dalam keberlangannya acara ini dihadiri oleh hampir seluruh mahasiswa FISIP UNS yang beragama kristen, dan juga dihadiri berbagai tamu undangan. Acara natal ini bernuansa sangat hangat dan berisikan kesukacitaan dari mereka yang merayakannya. Banyak sekali canda tawa yang muncul di acara ini, dan masing – masing peserta serta panitia, bersifat sangat hangat antara satu sama lainnya.",
+          "”Puji Tuhan acara kegiatan natal ini dihadiri oleh banyak mahasiswa FISIP UNS dan hampir semua tamu undangan yang diundang dapat hadir. Pastinya kami sangat senang karena menunjukan keantusiasan saudara seiman kami untuk merayakan acara natal. Acara natal tahun ini juga terasa hangat dan sukacita, karena menyambut hari kelahiran Tuhan kami ke dunia,” Ujar salah satu panitia yang bertugas dalam Natal PMK FISIP UNS.",
+          "Natal PMK FISIP UNS tahun ini pun juga mengusung tema heroes, yang berarti Tuhan sebagai seorang pahlawan. Banyak sekali hal menarik dalam kegiatan natal PMK FISIP UNS 2023 yang dapat menarik peserta, seperti adanya photoboot, games, dan persembahan penampilan, dan juga tukar kado. ",
+          "”Ya pastinya seru banget, karena banyak kegiatan seru. Gak hanya ibadah tetapi perayaanya ada tukar kado, photoboot, dan masih banyak lagi yang ngebuat acara natal nya jadi ga bosenin. Terus juga ada santa claus jadi bisa foto bareng buat lucu – lucuan. Acara natal ini bener – bener bakal teringat terus,” Perkataaan James sebagai peserta Natal PMK FISIP UNS 2023.",
+          "Kegiatan yang diadakan pada Jumat (8/12/2023) yang seharusnya bertempatan pada tanggal 25 Desember ini, ternyata hal ini terjadi untuk menghindari Mahasiswa FISIP UNS dan juga tamu undangan  yang sudah pulang ke kampungnya masing – masing. ”Sengaja dibuat tanggal 8 Desember, ya pastinya untuk mengindari mahasiswa dan tamu yang sudah pulang untuk berliburan dan juga berkumpul dengan keluarga ”. Ucapan dari Seva sebagai Steering Committe Panitia Natal PMK FISIP UNS.",
+          "Kegiatan acara natal, memang sudah ditunggu – tunggu oleh mereka yang beragama kristen dan khatolik. Acara ini menjadi tempat mereka untuk berbagi kehangatan dan juga sukacita. Genera – z yang tidak merayakannya harus dapat saling menghargai dan juga menghormati. Biarlah mereka yang merayakannya dapat merasa aman dan nyaman dalam menjalankannya. Selamat merayakan natal untuk genera – z yang merayakannya ya.",
+        ],
+        images: Ins14,
+        release: "Kamis, 08 Desember 2023",
+        category: "Inspirations",
+        author: "Efraim Nicholas Hutapea",
+      },
+      Sudah_Berstatus_Demisioner_BEM_FISIP_UNS_Adakan_Kegiatan_Terakhir_Bersama:
+        {
+          id: "Sudah_Berstatus_Demisioner_BEM_FISIP_UNS_Adakan_Kegiatan_Terakhir_Bersama",
+          title:
+            "Sudah Berstatus Demisioner, BEM FISIP UNS Adakan Kegiatan Terakhir Bersama",
+          description: [
+            "Tawangmangu - Badan Eksekutif Mahasiswa Fakultas Ilmu Sosial dan Politik Universitas Sebelas Maret (BEM FISIP UNS) mengadakan acara kebersamaan terakhir setelah sidang pleno akhir. Kegiatan yang diikuti oleh 74 orang, yang berisikan pengurus BEM FISIP INI bernama Catatan Akhir Tahun BEM FISIP UNS atau CAT BEM FISIP UNS diselenggarakan di Tawangmangu. Kegiatan ini merupakan kegiatan terakhir dari rangkaian kegiatan BEM lainnya kabinet Satya Jaghana Citra yang bertujuan untuk saling mengeratkan satu sama lain, sekaligus ajang perpisahan non formal antar pengurus.",
+
+            "Acara ini diselenggarakan selama dua hari, pada Sabtu (9/12/2023) hingga Minggu (10/12/2023). Hari pertama diisi dengan kegiatan sambutan terakhir oleh Prama Aditya sebagai Presiden BEM FISIP UNS 2023 dan Nadia Afifah selaku Sekretaris Jenderal yang dilanjut dengan sesi games, kemudian sesi SUCI (Surat Cinta). Para pengurus BEM yang hadir diberikan kertas kosong, kemudian menuliskan nama mereka masing-masing, dan kertas tersebut akan diisi oleh orang sebelahnya, kemudian kertas tersebut diputarkan hingga kertasnya sampai di tangan pemilik. Sehingga, para pengurus bebas untuk menulis tentang apapun yang berkaitan dengan orang yang ada di nama kertas tersebut. Namun, sesi Suci ini tidak selesai hingga akhir karena keterbatasan waktu, sehingga banyak pengurus yang belum menuliskan tentang pengurus lain. ",
+
+            "Agenda dilanjutkan dengan makan bersama yang dialasi dengan daun pisang. “Kita sengaja ngasi nya alas daun biar makannya pada bareng-bareng dan biar kebersamaan ajasi,” jelas Lutfi (19) sebagai salah satu demisioner dari Kementerian Pengembangan Organisasi (PO), sekaligus panitia dari CAT BEM. Setelah itu, acara dilanjut dengan sesi kementerian. Sesi kementerian ini dilaksanakan dengan setiap kementerian berkumpul dengan kementeriannya masing-masing, kegiatan setiap kementeriannya bebas tergantung kementerian masing-masing. Terdapat kementerian Pengembangan Sumber Daya Mahasiswa (PSDM) yang saling memberikan confess terkait selama kepengurusan satu periode, kemudian saling meminta maaf, dan memberikan hadiah kepada menteri dan wakil menterinya sebagai kenang-kenangan. Sedangkan, Kementerian Minat dan Bakat sendiri memakan buah durian yang dibawa dan jamming bersama sekaligus karaoke lagu favorit mereka. Terdapat dari Kementerian Kajian Strategis dan Aksi Propaganda yang berdiskusi membahas isu-isu terkini. Setelah itu, dilaksanakan free time. Terdapat beberapa yang sedang jamming, bakar-bakar, dan menonton TV. ",
+
+            "Kegiatan dilanjut pagi hari, Kementerian PO selaku panitia yang bertugas mengadakan games yang dilakukan di lapangan yang jaraknya tidak terlalu jauh dari lokasi penginapan. Games dilaksanakan tidak terlalu lama, tetapi berakhir dengan basah-basahan karena mereka saling melempar balon yang berisikan air kepada satu sama lain. Kemudian, mereka diminta untuk membersihkan diri dan makan, sekaligus beres-beres barang bawaan. Sambil menunggu, terdapat beberapa pengurus yang menonton bersama di ruang tengah. Mereka menonton film “The Doll 2” yang diperankan oleh Luna Maya. Beberapa pengurus juga ada yang asik menuliskan anon letter untuk pengurus lain yang sudah disediakan oleh panitia kepada masing-masing pengurus. Kelompok yang memenangkan permainan games pada pagi hari juga diumumkan dan diberikan hadiah sekaligus menjadi sesi penutup dari kegiatan CAT BEM FISIP UNS pada kali ini. ",
+
+            "“Acaranya seru banget, walaupun kemaren datangnya sempat nyusul, tapi ga ketinggalan sama inti acara. Apalagi waktu sesi kementerian itu mikat paling gajelas tapi tetap seru karena kita nyanyi-nyanyi bareng di luar,” komentar Rindy (19) yang mengikuti kegiatan ini, dari demisioner Kementerian Minat dan Bakat. Rindy juga menambahkan sesi favorit lainnya adalah SUCI karena setelah membaca kertasnya banyak yang memberikan afirmasi positif, sehingga menambah mood-nya.",
+          ],
+          images: Ins16,
+          release: "Minggu, 10 Desember 2023",
+          category: "Inspirations",
+          author: " Alvina Rahma Khalishafitri",
         },
     },
     environments: {
